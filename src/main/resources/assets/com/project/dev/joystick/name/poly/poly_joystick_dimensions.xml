@@ -1,0 +1,16 @@
+1644,1048		poly_joystick_background
+
+226, 360		poly_joystick_left_button
+315, 270		poly_joystick_up_button
+315, 417		poly_joystick_down_button
+394, 360		poly_joystick_right_button
+
+684, 485		poly_joystick_select_button
+879, 481		poly_joystick_start_button
+
+1078, 347		poly_joystick_square_button
+1217, 219		poly_joystick_triangle_button
+1217, 475		poly_joystick_eks_button
+1356, 347		poly_joystick_circle_button
+
+{ { 226, 360}, { 315, 270}, { 315, 417}, { 394, 360}, { 684, 485}, { 879, 481}, {1078, 347}, {1217, 219}, {1217, 475}, {1356, 347}}

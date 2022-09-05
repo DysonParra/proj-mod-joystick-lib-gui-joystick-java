@@ -1,0 +1,20 @@
+ 800,360		nintendo_joystick_background_v2
+
+98,115		nintendo_joystick_left_right_up_down_buttons
+98,160		nintendo_joystick_left_button
+143,115		nintendo_joystick_up_button
+143,160		nintendo_joystick_medium_button
+143,210		nintendo_joystick_down_button
+193,160		nintendo_joystick_right_button
+
+290,180		nintendo_joystick_start_select_buttons
+290,180		nintendo_joystick_start_button
+377,180		nintendo_joystick_select_button
+
+492, 74		nintendo_joystick_x_y_b_a_buttons
+521,154		nintendo_joystick_y_button
+597, 95		nintendo_joystick_x_button
+597,213		nintendo_joystick_b_buttons
+673,154		nintendo_joystick_a_buttons
+
+{ { 98,160}, {193,160}, {143,115}, {143,210}, {143,160}, {290,180}, {377,180}, {521,154}, {597, 95}, {597,213}, {673,154} }
