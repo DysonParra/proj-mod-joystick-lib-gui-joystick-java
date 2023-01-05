@@ -1,13 +1,16 @@
 /*
- * @fileoverview {GenericJoystickPrintActionSetter} se encarga de realizar tareas especificas.
+ * @fileoverview    {GenericJoystickPrintActionSetter} se encarga de realizar tareas específicas.
  *
- * @version             1.0
+ * @version         2.0
  *
- * @author              Dyson Arley Parra Tilano <dysontilano@gmail.com>
- * Copyright (C) Dyson Parra
+ * @author          Dyson Arley Parra Tilano <dysontilano@gmail.com>
  *
- * @History v1.0 --- La implementacion de {GenericJoystickPrintActionSetter} fue realizada el 31/07/2022.
- * @Dev - La primera version de {GenericJoystickPrintActionSetter} fue escrita por Dyson A. Parra T.
+ * @copyright       Dyson Parra
+ * @see             github.com/DysonParra
+ *
+ * History
+ * @version 1.0     Implementación realizada.
+ * @version 2.0     Documentación agregada.
  */
 package com.project.dev.joystick.setter;
 
