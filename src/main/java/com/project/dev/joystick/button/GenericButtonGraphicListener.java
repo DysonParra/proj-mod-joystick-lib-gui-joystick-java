@@ -18,13 +18,14 @@ import com.project.dev.joystick.GenericComponent;
 import com.project.dev.joystick.graphic.GenericImage;
 
 /**
- * FIXME: Definición de {@code GenericComponent}. Contiene la acción que realiza un componente
+ * FIXME: Definición de {@code GenericButtonGraphicListener}. Contiene la acción que realiza un componente
  * asociado a un botón genérico para cambiar de imagen genérica cuando el botón cambia de estado.
+ *
+ * @param <T> Es el tipo de dato de donde se asignará la parte gráfica del botón (JLabel o ImageView
+ *            por ejemplo).
  *
  * @author Dyson Parra
  * @since 1.8
- * @param <T> Es el tipo de dato de donde se asignará la parte gráfica del botón (JLabel o ImageView
- *            por ejemplo).
  */
 public abstract class GenericButtonGraphicListener<T> implements GenericComponent {
 
