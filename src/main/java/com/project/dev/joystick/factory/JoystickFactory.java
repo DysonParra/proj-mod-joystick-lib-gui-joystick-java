@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {JoystickFactory} se encarga de realizar tareas específicas.
+ * @fileoverview    {JoystickFactory}
  *
  * @version         2.0
  *

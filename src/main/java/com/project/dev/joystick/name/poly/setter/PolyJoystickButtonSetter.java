@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {PolyJoystickButtonSetter} se encarga de realizar tareas específicas.
+ * @fileoverview    {PolyJoystickButtonSetter}
  *
  * @version         2.0
  *

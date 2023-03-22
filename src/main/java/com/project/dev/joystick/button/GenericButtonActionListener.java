@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericButtonActionListener} se encarga de realizar tareas específicas.
+ * @fileoverview    {GenericButtonActionListener}
  *
  * @version         2.0
  *

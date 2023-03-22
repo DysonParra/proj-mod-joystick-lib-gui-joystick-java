@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {PolyJoystickGraphicConstant} se encarga de realizar tareas específicas.
+ * @fileoverview    {PolyJoystickGraphicConstant}
  *
  * @version         2.0
  *

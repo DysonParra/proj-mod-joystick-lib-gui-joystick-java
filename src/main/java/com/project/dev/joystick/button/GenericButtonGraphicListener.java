@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericButtonGraphicListener} se encarga de realizar tareas específicas.
+ * @fileoverview    {GenericButtonGraphicListener}
  *
  * @version         2.0
  *

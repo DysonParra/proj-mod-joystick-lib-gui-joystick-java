@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {NintendoJoystickButtonSetter} se encarga de realizar tareas específicas.
+ * @fileoverview    {NintendoJoystickButtonSetter}
  *
  * @version         2.0
  *

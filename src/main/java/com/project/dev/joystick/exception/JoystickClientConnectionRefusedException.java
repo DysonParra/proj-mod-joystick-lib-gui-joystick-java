@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {JoystickClientConnectionRefusedException} se encarga de realizar tareas específicas.
+ * @fileoverview    {JoystickClientConnectionRefusedException}
  *
  * @version         2.0
  *

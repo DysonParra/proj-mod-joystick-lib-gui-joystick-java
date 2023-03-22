@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericImage} se encarga de realizar tareas específicas.
+ * @fileoverview    {GenericImage}
  *
  * @version         2.0
  *

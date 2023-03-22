@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {JoystickClientListener} se encarga de realizar tareas específicas.
+ * @fileoverview    {JoystickClientListener}
  *
  * @version         2.0
  *

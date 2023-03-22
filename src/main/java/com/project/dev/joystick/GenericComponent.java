@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericComponent} se encarga de realizar tareas específicas.
+ * @fileoverview    {GenericComponent}
  *
  * @version         2.0
  *

@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {JoystickNotFoundException} se encarga de realizar tareas específicas.
+ * @fileoverview    {JoystickNotFoundException}
  *
  * @version         2.0
  *

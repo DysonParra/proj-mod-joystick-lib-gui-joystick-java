@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericJoystickGraphicSetter} se encarga de realizar tareas específicas.
+ * @fileoverview    {GenericJoystickGraphicSetter}
  *
  * @version         2.0
  *

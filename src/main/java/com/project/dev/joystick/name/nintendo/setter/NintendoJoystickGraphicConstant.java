@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {NintendoJoystickGraphicConstant} se encarga de realizar tareas específicas.
+ * @fileoverview    {NintendoJoystickGraphicConstant}
  *
  * @version         2.0
  *

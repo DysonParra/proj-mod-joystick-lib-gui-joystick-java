@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericButton} se encarga de realizar tareas específicas.
+ * @fileoverview    {GenericButton}
  *
  * @version         2.0
  *

@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {PolyJoystickGraphicSetter} se encarga de realizar tareas específicas.
+ * @fileoverview    {PolyJoystickGraphicSetter}
  *
  * @version         2.0
  *

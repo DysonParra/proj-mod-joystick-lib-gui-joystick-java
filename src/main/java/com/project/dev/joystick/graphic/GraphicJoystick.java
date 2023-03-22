@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GraphicJoystick} se encarga de realizar tareas específicas.
+ * @fileoverview    {GraphicJoystick}
  *
  * @version         2.0
  *

@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {PolyJoystickLocal} se encarga de realizar tareas específicas.
+ * @fileoverview    {PolyJoystickLocal}
  *
  * @version         2.0
  *

@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {UnknownJoystickTypeException} se encarga de realizar tareas específicas.
+ * @fileoverview    {UnknownJoystickTypeException}
  *
  * @version         2.0
  *

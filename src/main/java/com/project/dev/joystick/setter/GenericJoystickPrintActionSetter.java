@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericJoystickPrintActionSetter} se encarga de realizar tareas específicas.
+ * @fileoverview    {GenericJoystickPrintActionSetter}
  *
  * @version         2.0
  *

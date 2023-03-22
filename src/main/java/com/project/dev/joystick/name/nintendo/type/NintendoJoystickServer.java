@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {NintendoJoystickServer} se encarga de realizar tareas específicas.
+ * @fileoverview    {NintendoJoystickServer}
  *
  * @version         2.0
  *

@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericImageAbstractFactory} se encarga de realizar tareas específicas.
+ * @fileoverview    {GenericImageAbstractFactory}
  *
  * @version         2.0
  *

@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericJoystickServer} se encarga de realizar tareas específicas.
+ * @fileoverview    {GenericJoystickServer}
  *
  * @version         2.0
  *
