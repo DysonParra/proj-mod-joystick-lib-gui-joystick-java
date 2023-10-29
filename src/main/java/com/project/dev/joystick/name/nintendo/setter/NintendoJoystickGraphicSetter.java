@@ -26,7 +26,7 @@ import java.awt.event.KeyEvent;
  * que representan la parte gráfica del joystick.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class NintendoJoystickGraphicSetter extends GenericJoystickGraphicSetter implements NintendoJoystickGraphicConstant {
 

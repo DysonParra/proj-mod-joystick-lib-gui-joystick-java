@@ -25,7 +25,7 @@ import com.project.dev.joystick.graphic.GenericImage;
  *            por ejemplo).
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public abstract class GenericButtonGraphicListener<T> implements GenericComponent {
 

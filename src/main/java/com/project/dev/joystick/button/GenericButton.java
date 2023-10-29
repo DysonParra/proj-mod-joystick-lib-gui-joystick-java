@@ -29,7 +29,7 @@ import lombok.Setter;
  * botón perteneciente a un joystick de cualquier tipo y nombre.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 //@AllArgsConstructor
 //@Builder

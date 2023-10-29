@@ -23,7 +23,7 @@ import com.project.dev.joystick.name.generic.GenericJoystick;
  * para un joystick de cualquier nombre y tipo (excepto tipo cliente), para asignarle los botones.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public abstract class GenericJoystickButtonSetter implements GenericComponent {
 

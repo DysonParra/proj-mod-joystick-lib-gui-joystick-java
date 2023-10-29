@@ -23,7 +23,7 @@ import lombok.Data;
  * en memoria se deja a cada sistema operativo.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 //@AllArgsConstructor
 //@Builder

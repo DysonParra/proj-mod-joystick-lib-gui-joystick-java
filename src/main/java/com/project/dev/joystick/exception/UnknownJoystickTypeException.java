@@ -19,7 +19,7 @@ package com.project.dev.joystick.exception;
  * fábrica de joystick el tipo de joystick especificado no existe.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class UnknownJoystickTypeException extends Exception {
 

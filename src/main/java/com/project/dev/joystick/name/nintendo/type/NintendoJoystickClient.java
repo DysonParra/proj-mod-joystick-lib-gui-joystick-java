@@ -23,7 +23,7 @@ import com.project.dev.joystick.name.nintendo.NintendoJoystick;
  * GenericUdp.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class NintendoJoystickClient extends GenericJoystickClient implements NintendoJoystick {
 

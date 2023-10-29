@@ -22,7 +22,7 @@ import com.project.dev.joystick.graphic.GenericImage;
  * imágenes genéricas, la implementación depende de cada sistema operativo.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public abstract class GenericImageAbstractFactory implements GenericComponent {
 

@@ -28,7 +28,7 @@ import lombok.NoArgsConstructor;
  * @param <T> Es el tipo de dato de donde se asignará el joystick (JFrame o ViewGroup por ejemplo).
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 @AllArgsConstructor
 //@Builder

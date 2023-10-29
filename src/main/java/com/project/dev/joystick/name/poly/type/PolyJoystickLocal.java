@@ -24,7 +24,7 @@ import com.project.dev.joystick.name.poly.setter.PolyJoystickButtonSetter;
  * joystick de nombre poly que funciona localmente.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class PolyJoystickLocal extends GenericJoystickLocal implements PolyJoystick {
 

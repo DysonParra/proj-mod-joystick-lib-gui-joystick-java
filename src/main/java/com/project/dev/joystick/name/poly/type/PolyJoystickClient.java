@@ -22,7 +22,7 @@ import com.project.dev.joystick.name.poly.PolyJoystick;
  * joystick de nombre poly que envía peticiones através de la web usando la biblioteca GenericUdp.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class PolyJoystickClient extends GenericJoystickClient implements PolyJoystick {
 

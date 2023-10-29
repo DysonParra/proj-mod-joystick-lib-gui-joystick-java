@@ -21,7 +21,7 @@ import com.project.dev.joystick.GenericComponent;
  * poly.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public interface PolyJoystick extends GenericComponent {
 

@@ -22,7 +22,7 @@ import com.project.dev.joystick.name.generic.GenericJoystick;
  * la parte gráfica de un jostick, cuya implementación depende de cada sistema operativo.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public interface GraphicJoystick extends GenericComponent {
 

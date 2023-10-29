@@ -20,7 +20,7 @@ package com.project.dev.joystick.exception;
  * servidor.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class JoystickClientConnectionRefusedException extends Exception {
 

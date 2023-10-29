@@ -25,7 +25,7 @@ import com.project.dev.joystick.name.nintendo.setter.NintendoJoystickButtonSette
  * GenericUdp.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class NintendoJoystickServer extends GenericJoystickServer implements NintendoJoystick {
 

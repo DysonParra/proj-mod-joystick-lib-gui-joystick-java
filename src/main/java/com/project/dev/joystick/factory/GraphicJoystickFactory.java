@@ -30,7 +30,7 @@ import java.lang.reflect.InvocationTargetException;
  * joystick.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class GraphicJoystickFactory {
 

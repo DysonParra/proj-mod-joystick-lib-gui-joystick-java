@@ -21,7 +21,7 @@ import com.project.dev.joystick.GenericComponent;
  * nombre nintendo.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public interface NintendoJoystick extends GenericComponent {
 

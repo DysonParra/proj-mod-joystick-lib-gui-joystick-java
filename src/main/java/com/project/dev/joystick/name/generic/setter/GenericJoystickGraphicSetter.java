@@ -25,7 +25,7 @@ import com.project.dev.joystick.name.generic.GenericJoystick;
  * representan la parte gráfica del joystick.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public abstract class GenericJoystickGraphicSetter implements GenericComponent {
 

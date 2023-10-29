@@ -22,7 +22,7 @@ import java.io.Serializable;
  * las clases sepan cuales son.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public interface GenericComponent extends Serializable {
 

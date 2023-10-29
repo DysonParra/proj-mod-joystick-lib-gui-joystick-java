@@ -24,7 +24,7 @@ import com.project.dev.joystick.name.poly.PolyJoystick;
  * joystick de cualquier tipo (excepto tipo cliente) y de nombre poly, para asignarle los botones.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class PolyJoystickButtonSetter extends GenericJoystickButtonSetter {
 

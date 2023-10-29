@@ -23,7 +23,7 @@ import com.project.dev.joystick.name.generic.GenericJoystick;
  * para un joystick que no se comunica con otros joystick.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class GenericJoystickLocal extends GenericJoystick {
 
