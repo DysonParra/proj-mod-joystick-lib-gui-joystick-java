@@ -20,7 +20,7 @@ import com.project.dev.joystick.name.generic.setter.GenericJoystickButtonSetter;
 import com.project.dev.joystick.name.poly.PolyJoystick;
 
 /**
- * FIXME: Definición de {@code PolyJoystickButtonSetter}. Contiene las operaciones generales para un
+ * FIXME: Description of {@code PolyJoystickButtonSetter}. Contiene las operaciones generales para un
  * joystick de cualquier tipo (excepto tipo cliente) y de nombre poly, para asignarle los botones.
  *
  * @author Dyson Parra
@@ -31,7 +31,7 @@ public class PolyJoystickButtonSetter extends GenericJoystickButtonSetter {
     protected PolyJoystick polyJoystick;
 
     /**
-     * FIXME: Definición de {@code setGenericJoystickButtons}. Agrega los botones al joystick
+     * FIXME: Description of {@code setGenericJoystickButtons}. Agrega los botones al joystick
      * genérico.
      *
      * @param genericJoystick es el joystick genérico.

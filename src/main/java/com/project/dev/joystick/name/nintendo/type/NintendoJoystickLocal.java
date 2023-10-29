@@ -20,7 +20,7 @@ import com.project.dev.joystick.name.nintendo.NintendoJoystick;
 import com.project.dev.joystick.name.nintendo.setter.NintendoJoystickButtonSetter;
 
 /**
- * FIXME: Definición de {@code NintendoJoystickLocal}. Contiene las definiciones y operaciones para
+ * FIXME: Description of {@code NintendoJoystickLocal}. Contiene las definiciones y operaciones para
  * un joystick de nombre nintendo que funciona localmente.
  *
  * @author Dyson Parra
@@ -29,7 +29,7 @@ import com.project.dev.joystick.name.nintendo.setter.NintendoJoystickButtonSette
 public class NintendoJoystickLocal extends GenericJoystickLocal implements NintendoJoystick {
 
     /**
-     * TODO: Definición de {@code NintendoJoystickLocal}.
+     * TODO: Description of {@code NintendoJoystickLocal}.
      *
      * @throws java.lang.Exception
      */

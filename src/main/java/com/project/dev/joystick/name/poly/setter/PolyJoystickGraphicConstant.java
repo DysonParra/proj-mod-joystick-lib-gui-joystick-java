@@ -15,7 +15,7 @@
 package com.project.dev.joystick.name.poly.setter;
 
 /**
- * TODO: Definición de {@code PolyJoystickGraphicConstant}.
+ * TODO: Description of {@code PolyJoystickGraphicConstant}.
  *
  * @author Dyson Parra
  * @since 11

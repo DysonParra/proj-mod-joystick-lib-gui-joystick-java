@@ -20,7 +20,7 @@ import com.project.dev.joystick.name.nintendo.NintendoJoystick;
 import com.project.dev.joystick.name.nintendo.setter.NintendoJoystickButtonSetter;
 
 /**
- * FIXME: Definición de {@code NintendoJoystickServer}. Contiene las definiciones y operaciones para
+ * FIXME: Description of {@code NintendoJoystickServer}. Contiene las definiciones y operaciones para
  * un joystick de nombre nintendo que recibe peticiones através de la web usando la biblioteca
  * GenericUdp.
  *
@@ -30,7 +30,7 @@ import com.project.dev.joystick.name.nintendo.setter.NintendoJoystickButtonSette
 public class NintendoJoystickServer extends GenericJoystickServer implements NintendoJoystick {
 
     /**
-     * TODO: Definición de {@code NintendoJoystickServer}.
+     * TODO: Description of {@code NintendoJoystickServer}.
      *
      * @throws java.lang.Exception
      */

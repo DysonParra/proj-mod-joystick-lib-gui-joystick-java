@@ -18,7 +18,7 @@ import com.project.dev.joystick.GenericComponent;
 import com.project.dev.joystick.graphic.GenericImage;
 
 /**
- * FIXME: Definición de {@code GenericButtonGraphicListener}. Contiene la acción que realiza un componente
+ * FIXME: Description of {@code GenericButtonGraphicListener}. Contiene la acción que realiza un componente
  * asociado a un botón genérico para cambiar de imagen genérica cuando el botón cambia de estado.
  *
  * @param <T> Es el tipo de dato de donde se asignará la parte gráfica del botón (JLabel o ImageView
@@ -32,7 +32,7 @@ public abstract class GenericButtonGraphicListener<T> implements GenericComponen
     protected T view;
 
     /**
-     * TODO: Definición de {@code GenericButtonGraphicListener}.
+     * TODO: Description of {@code GenericButtonGraphicListener}.
      *
      * @param view es la vista donde se asignará la parte gráfica del botón (JLabel o ImageView por
      *             ejemplo).
@@ -42,7 +42,7 @@ public abstract class GenericButtonGraphicListener<T> implements GenericComponen
     }
 
     /**
-     * TODO: Definición de {@code getView}.
+     * TODO: Description of {@code getView}.
      *
      * @return
      */
@@ -51,7 +51,7 @@ public abstract class GenericButtonGraphicListener<T> implements GenericComponen
     }
 
     /**
-     * TODO: Definición de {@code setView}.
+     * TODO: Description of {@code setView}.
      *
      * @param view
      */
@@ -60,7 +60,7 @@ public abstract class GenericButtonGraphicListener<T> implements GenericComponen
     }
 
     /**
-     * FIXME: Definición de {@code onButtonStateChanged}. Realiza una acción luego de que el botón
+     * FIXME: Description of {@code onButtonStateChanged}. Realiza una acción luego de que el botón
      * al que pertenece cambia de estado.
      *
      * @param newState es el nuevo estado del botón.

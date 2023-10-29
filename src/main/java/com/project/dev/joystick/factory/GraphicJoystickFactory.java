@@ -25,7 +25,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
 /**
- * FIXME: Definición de {@code GraphicJoystickFactory}. Se usa para fabricar un joystick, buscando
+ * FIXME: Description of {@code GraphicJoystickFactory}. Se usa para fabricar un joystick, buscando
  * el nombre del joystick usando la fábrica de joystick, y además para agregarle la parte gráfica al
  * joystick.
  *
@@ -37,7 +37,7 @@ public class GraphicJoystickFactory {
     private JoystickViewSetter joystickViewSetter;
 
     /**
-     * TODO: Definición de {@code GraphicJoystickFactory}.
+     * TODO: Description of {@code GraphicJoystickFactory}.
      *
      * @param joystickViewSetter Es el asignador gráfico del joystick a la ventana.
      */
@@ -46,7 +46,7 @@ public class GraphicJoystickFactory {
     }
 
     /**
-     * TODO: Definición de {@code getJoystickViewSetter}.
+     * TODO: Description of {@code getJoystickViewSetter}.
      *
      * @return
      */
@@ -55,7 +55,7 @@ public class GraphicJoystickFactory {
     }
 
     /**
-     * TODO: Definición de {@code setJoystickViewSetter}.
+     * TODO: Description of {@code setJoystickViewSetter}.
      *
      * @param joystickViewSetter
      */
@@ -64,7 +64,7 @@ public class GraphicJoystickFactory {
     }
 
     /**
-     * FIXME: Definición de {@code makeGraphicJoystick}. Crea un joystick con la información
+     * FIXME: Description of {@code makeGraphicJoystick}. Crea un joystick con la información
      * indicada.
      *
      * @param type       es el tipo de joystick que se creará (Local, cliente o servidor). Usar los

@@ -15,7 +15,7 @@
 package com.project.dev.joystick.exception;
 
 /**
- * FIXME: Definición de {@code UnknownJoystickTypeException}. Exception que ocurre cuando al usar la
+ * FIXME: Description of {@code UnknownJoystickTypeException}. Exception que ocurre cuando al usar la
  * fábrica de joystick el tipo de joystick especificado no existe.
  *
  * @author Dyson Parra
@@ -24,7 +24,7 @@ package com.project.dev.joystick.exception;
 public class UnknownJoystickTypeException extends Exception {
 
     /**
-     * TODO: Definición de {@code UnknownJoystickTypeException}.
+     * TODO: Description of {@code UnknownJoystickTypeException}.
      *
      * @param message es el mensaje que mostrará la exception.
      */

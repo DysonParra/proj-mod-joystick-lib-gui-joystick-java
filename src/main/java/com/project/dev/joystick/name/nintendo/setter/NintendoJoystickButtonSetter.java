@@ -20,7 +20,7 @@ import com.project.dev.joystick.name.generic.setter.GenericJoystickButtonSetter;
 import com.project.dev.joystick.name.nintendo.NintendoJoystick;
 
 /**
- * FIXME: Definición de {@code NintendoJoystickButtonSetter}. Contiene las operaciones generales
+ * FIXME: Description of {@code NintendoJoystickButtonSetter}. Contiene las operaciones generales
  * para un joystick de cualquier tipo (excepto tipo cliente) y de nombre nintendo, para asignarle
  * los botones.
  *
@@ -32,7 +32,7 @@ public class NintendoJoystickButtonSetter extends GenericJoystickButtonSetter {
     protected NintendoJoystick nintendoJoystick;
 
     /**
-     * FIXME: Definición de {@code setGenericJoystickButtons}. Agrega los botones al joystick
+     * FIXME: Description of {@code setGenericJoystickButtons}. Agrega los botones al joystick
      * genérico.
      *
      * @param genericJoystick es el joystick genérico.

@@ -17,7 +17,7 @@ package com.project.dev.joystick;
 import java.io.Serializable;
 
 /**
- * FIXME: Definición de {@code GenericComponent}. Se usa para tipar todos los objetos de la
+ * FIXME: Description of {@code GenericComponent}. Se usa para tipar todos los objetos de la
  * biblioteca, y que además contiene los estados de los botones de un GenericButton para que todas
  * las clases sepan cuales son.
  *

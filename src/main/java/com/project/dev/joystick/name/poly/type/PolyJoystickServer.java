@@ -20,7 +20,7 @@ import com.project.dev.joystick.name.poly.PolyJoystick;
 import com.project.dev.joystick.name.poly.setter.PolyJoystickButtonSetter;
 
 /**
- * FIXME: Definición de {@code PolyJoystickServer}. Contiene las definiciones y operaciones para un
+ * FIXME: Description of {@code PolyJoystickServer}. Contiene las definiciones y operaciones para un
  * joystick de nombre poly que recibe peticiones através de la web usando la biblioteca GenericUdp.
  *
  * @author Dyson Parra
@@ -29,7 +29,7 @@ import com.project.dev.joystick.name.poly.setter.PolyJoystickButtonSetter;
 public class PolyJoystickServer extends GenericJoystickServer implements PolyJoystick {
 
     /**
-     * TODO: Definición de {@code PolyJoystickServer}.
+     * TODO: Description of {@code PolyJoystickServer}.
      *
      * @throws java.lang.Exception
      */

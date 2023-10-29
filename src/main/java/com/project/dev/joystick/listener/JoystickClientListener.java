@@ -15,7 +15,7 @@
 package com.project.dev.joystick.listener;
 
 /**
- * FIXME: Definición de {@code JoystickClientListener}. Contiene las acciones que ejecuta un
+ * FIXME: Description of {@code JoystickClientListener}. Contiene las acciones que ejecuta un
  * joystick cliente en algún momento específico.
  *
  * @author Dyson Parra
@@ -24,7 +24,7 @@ package com.project.dev.joystick.listener;
 public interface JoystickClientListener {
 
     /**
-     * FIXME: Definición de {@code onUpdateButtonsStatesTimeOut}. Realiza una acción luego de no sea
+     * FIXME: Description of {@code onUpdateButtonsStatesTimeOut}. Realiza una acción luego de no sea
      * posible actualizar el estado de los botones del joystick servidor.
      */
     public abstract void onUpdateButtonsStatesTimeOut();

@@ -18,7 +18,7 @@ import com.project.dev.joystick.GenericComponent;
 import lombok.Data;
 
 /**
- * FIXME: Definición de {@code GenericImage}. Especifica el comportamiento general para almacenar
+ * FIXME: Description of {@code GenericImage}. Especifica el comportamiento general para almacenar
  * una imagen obtenida desde "asses/...". La implementación de como obtener la imagen y almacenarla
  * en memoria se deja a cada sistema operativo.
  *
@@ -39,7 +39,7 @@ public abstract class GenericImage implements GenericComponent {
     protected int positionY = 0;                                                // Posición en Y de la imagen.
 
     /**
-     * TODO: Definición de {@code GenericImage}.
+     * TODO: Description of {@code GenericImage}.
      *
      * @throws java.lang.Exception
      */
@@ -48,7 +48,7 @@ public abstract class GenericImage implements GenericComponent {
     }
 
     /**
-     * TODO: Definición de {@code GenericImage}.
+     * TODO: Description of {@code GenericImage}.
      *
      * @param path es la ruta de la imagen.
      * @throws java.lang.Exception
@@ -58,7 +58,7 @@ public abstract class GenericImage implements GenericComponent {
     }
 
     /**
-     * TODO: Definición de {@code setPath}.
+     * TODO: Description of {@code setPath}.
      *
      * @param path
      * @throws java.lang.Exception
@@ -69,7 +69,7 @@ public abstract class GenericImage implements GenericComponent {
     }
 
     /**
-     * TODO: Definición de {@code setWidth}.
+     * TODO: Description of {@code setWidth}.
      *
      * @param width
      */
@@ -79,7 +79,7 @@ public abstract class GenericImage implements GenericComponent {
     }
 
     /**
-     * TODO: Definición de {@code setHeight}.
+     * TODO: Description of {@code setHeight}.
      *
      * @param height
      */
@@ -99,7 +99,7 @@ public abstract class GenericImage implements GenericComponent {
     }
 
     /**
-     * FIXME: Definición de {@code onPathChange}. Invocado cuando se cambia la ruta de la imagen
+     * FIXME: Description of {@code onPathChange}. Invocado cuando se cambia la ruta de la imagen
      * genérica.
      *
      * @throws Exception
@@ -107,25 +107,25 @@ public abstract class GenericImage implements GenericComponent {
     public abstract void onPathChange() throws Exception;
 
     /**
-     * FIXME: Definición de {@code onWidthChange}. Invocado cuando se cambia el ancho de la imagen
+     * FIXME: Description of {@code onWidthChange}. Invocado cuando se cambia el ancho de la imagen
      * genérica.
      */
     public abstract void onWidthChange();
 
     /**
-     * FIXME: Definición de {@code onHeightChange}. Invocado cuando se cambia el lto de la imagen
+     * FIXME: Description of {@code onHeightChange}. Invocado cuando se cambia el lto de la imagen
      * genérica.
      */
     public abstract void onHeightChange();
 
     /**
-     * FIXME: Definición de {@code onPositionXChange}. Invocado cuando se cambian las coordenadas en
+     * FIXME: Description of {@code onPositionXChange}. Invocado cuando se cambian las coordenadas en
      * X de la imagen genérica.
      */
     public abstract void onPositionXChange();
 
     /**
-     * FIXME: Definición de {@code onPositionYChange}. Invocado cuando se cambian las coordenadas en
+     * FIXME: Description of {@code onPositionYChange}. Invocado cuando se cambian las coordenadas en
      * Y de la imagen genérica.
      */
     public abstract void onPositionYChange();

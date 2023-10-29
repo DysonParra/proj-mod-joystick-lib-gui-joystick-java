@@ -18,7 +18,7 @@ import com.project.dev.joystick.GenericComponent;
 import com.project.dev.joystick.graphic.GenericImage;
 
 /**
- * FIXME: Definición de {@code GenericImageAbstractFactory}. Especifica la forma general de fabricar
+ * FIXME: Description of {@code GenericImageAbstractFactory}. Especifica la forma general de fabricar
  * imágenes genéricas, la implementación depende de cada sistema operativo.
  *
  * @author Dyson Parra
@@ -27,7 +27,7 @@ import com.project.dev.joystick.graphic.GenericImage;
 public abstract class GenericImageAbstractFactory implements GenericComponent {
 
     /**
-     * TODO: Definición de {@code GenericImageAbstractFactory}.
+     * TODO: Description of {@code GenericImageAbstractFactory}.
      *
      */
     public GenericImageAbstractFactory() {
@@ -35,7 +35,7 @@ public abstract class GenericImageAbstractFactory implements GenericComponent {
     }
 
     /**
-     * FIXME: Definición de {@code makeGenericImage}. Fabrica una imagen genérica con solo la ruta.
+     * FIXME: Description of {@code makeGenericImage}. Fabrica una imagen genérica con solo la ruta.
      *
      * @param path es la ruta de la imagen.
      * @return una imagen genérica.
@@ -44,7 +44,7 @@ public abstract class GenericImageAbstractFactory implements GenericComponent {
     public abstract GenericImage makeGenericImage(String path) throws Exception;
 
     /**
-     * FIXME: Definición de {@code makeGenericImage}. Fabrica una imagen genérica con la ruta el
+     * FIXME: Description of {@code makeGenericImage}. Fabrica una imagen genérica con la ruta el
      * ancho y el alto.
      *
      * @param path      es la ruta de la imagen.
@@ -61,7 +61,7 @@ public abstract class GenericImageAbstractFactory implements GenericComponent {
     }
 
     /**
-     * FIXME: Definición de {@code makeGenericImage}. Fabrica una imagen genérica con la ruta el
+     * FIXME: Description of {@code makeGenericImage}. Fabrica una imagen genérica con la ruta el
      * ancho y el alto.
      *
      * @param path      es la ruta de la imagen.

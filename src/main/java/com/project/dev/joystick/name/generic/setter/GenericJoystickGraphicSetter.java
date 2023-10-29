@@ -20,7 +20,7 @@ import com.project.dev.joystick.factory.GenericImageAbstractFactory;
 import com.project.dev.joystick.name.generic.GenericJoystick;
 
 /**
- * FIXME: Definición de {@code GenericJoystickGraphicSetter}. Contiene las operaciones generales
+ * FIXME: Description of {@code GenericJoystickGraphicSetter}. Contiene las operaciones generales
  * para un joystick de cualquier nombre y tipo, para asignarle las imágenes genéricas que
  * representan la parte gráfica del joystick.
  *
@@ -30,7 +30,7 @@ import com.project.dev.joystick.name.generic.GenericJoystick;
 public abstract class GenericJoystickGraphicSetter implements GenericComponent {
 
     /**
-     * FIXME: Definición de {@code setGenericJoystickGraphics}. Asigna los componnetes gráficos a un
+     * FIXME: Description of {@code setGenericJoystickGraphics}. Asigna los componnetes gráficos a un
      * joystick y sus botones.
      *
      * @param imageFactory         Es la fabrica de imagenes genéricas.
@@ -83,7 +83,7 @@ public abstract class GenericJoystickGraphicSetter implements GenericComponent {
     }
 
     /**
-     * FIXME: Definición de {@code setGenericJoystickGraphics}. Asigna los componnetes gráficos a un
+     * FIXME: Description of {@code setGenericJoystickGraphics}. Asigna los componnetes gráficos a un
      * joystick y sus botones.
      *
      * @param imageFactory Es la fabrica de imagenes genéricas.

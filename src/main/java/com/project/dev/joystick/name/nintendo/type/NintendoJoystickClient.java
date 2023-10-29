@@ -18,7 +18,7 @@ import com.project.dev.joystick.name.generic.type.GenericJoystickClient;
 import com.project.dev.joystick.name.nintendo.NintendoJoystick;
 
 /**
- * FIXME: Definición de {@code NintendoJoystickClient}. Contiene las definiciones y operaciones para
+ * FIXME: Description of {@code NintendoJoystickClient}. Contiene las definiciones y operaciones para
  * un joystick de nombre nintendo que envía peticiones através de la web usando la biblioteca
  * GenericUdp.
  *
@@ -28,7 +28,7 @@ import com.project.dev.joystick.name.nintendo.NintendoJoystick;
 public class NintendoJoystickClient extends GenericJoystickClient implements NintendoJoystick {
 
     /**
-     * TODO: Definición de {@code NintendoJoystickClient}.
+     * TODO: Description of {@code NintendoJoystickClient}.
      *
      * @throws java.lang.Exception
      */

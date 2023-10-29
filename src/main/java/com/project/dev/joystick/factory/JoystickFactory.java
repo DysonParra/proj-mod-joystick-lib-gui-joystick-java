@@ -27,7 +27,7 @@ import static com.project.dev.joystick.name.generic.GenericJoystick.JOYSTICK_TYP
 import static com.project.dev.joystick.name.generic.GenericJoystick.JOYSTICK_TYPE_SERVER;
 
 /**
- * FIXME: Definición de {@code JoystickFactory}. Se usa para fabricar joystick, buscando el nombre
+ * FIXME: Description of {@code JoystickFactory}. Se usa para fabricar joystick, buscando el nombre
  * del joystick en el classpath.
  *
  * @author Dyson Parra
@@ -36,7 +36,7 @@ import static com.project.dev.joystick.name.generic.GenericJoystick.JOYSTICK_TYP
 public class JoystickFactory {
 
     /**
-     * FIXME: Definición de {@code makeJoystick}. Crea un joystick con la información indicada.
+     * FIXME: Description of {@code makeJoystick}. Crea un joystick con la información indicada.
      *
      * @param type       es el tipo de joystick que se creará (Local, cliente o servidor). Usar los
      *                   tipos especificado en "GenericJoystick.JOYSTICK_TYPE_????".

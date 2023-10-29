@@ -20,7 +20,7 @@ import com.project.dev.joystick.button.GenericButtonActionListener;
 import com.project.dev.joystick.name.generic.GenericJoystick;
 
 /**
- * FIXME: Definición de {@code GenericJoystickPrintActionSetter}. Se usa para asignar acciones de
+ * FIXME: Description of {@code GenericJoystickPrintActionSetter}. Se usa para asignar acciones de
  * imprimir en pantalla a cada boton de un joystick de cualquier tipo y nombre.
  *
  * @author Dyson Parra
@@ -29,7 +29,7 @@ import com.project.dev.joystick.name.generic.GenericJoystick;
 public class GenericJoystickPrintActionSetter implements GenericComponent {
 
     /**
-     * FIXME: Definición de {@code addButtonPrintActions}. Agrega acciones de imprimir en pantalla a
+     * FIXME: Description of {@code addButtonPrintActions}. Agrega acciones de imprimir en pantalla a
      * cada botón del joystick.
      *
      * @param genericJoystick es el joystick genérico.

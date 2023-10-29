@@ -15,7 +15,7 @@
 package com.project.dev.joystick.name.nintendo.setter;
 
 /**
- * TODO: Definición de {@code NintendoJoystickGraphicConstant}.
+ * TODO: Description of {@code NintendoJoystickGraphicConstant}.
  *
  * @author Dyson Parra
  * @since 11

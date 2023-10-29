@@ -22,7 +22,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * FIXME: Definición de {@code JoystickViewSetter}. Se usa para asignar la parte gráfica a un joystick de cualquier
+ * FIXME: Description of {@code JoystickViewSetter}. Se usa para asignar la parte gráfica a un joystick de cualquier
  * tipo y nombre.
  *
  * @param <T> Es el tipo de dato de donde se asignará el joystick (JFrame o ViewGroup por ejemplo).
@@ -40,7 +40,7 @@ public abstract class JoystickViewSetter<T> {
     protected T view;
 
     /**
-     * FIXME: Definición de {@code addJoystickToView}. Asigna un joystick con su respectivo
+     * FIXME: Description of {@code addJoystickToView}. Asigna un joystick con su respectivo
      * asignador gráfico a la vista.
      *
      * @param joystick      es el joystick.

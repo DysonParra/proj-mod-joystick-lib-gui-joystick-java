@@ -21,7 +21,7 @@ import com.project.dev.udp.generic.GenericUdpClient;
 import lombok.Data;
 
 /**
- * FIXME: Definición de {@code GenericJoystickClient}. Contiene las definiciones y operaciones para
+ * FIXME: Description of {@code GenericJoystickClient}. Contiene las definiciones y operaciones para
  * un joystick que se comunica con otro através de la web y para uno que unicamente recibe las
  * peticiones.
  *
@@ -48,7 +48,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     protected JoystickClientListener onJoystickClientListener = null;                   // Listener al joystick cliente.
 
     /**
-     * TODO: Definición de {@code GenericJoystickClient}.
+     * TODO: Description of {@code GenericJoystickClient}.
      *
      * @throws java.lang.Exception
      */
@@ -58,7 +58,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Definición de {@code GenericJoystickClient}.
+     * TODO: Description of {@code GenericJoystickClient}.
      *
      * @param name es el nombre del joystick.
      * @throws java.lang.Exception
@@ -69,7 +69,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Definición de {@code GenericJoystickClient}.
+     * TODO: Description of {@code GenericJoystickClient}.
      *
      * @param serverIpAddress es la dirección ip del servidor.
      * @param serverPort      Es el puerto del servidor.
@@ -84,7 +84,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Definición de {@code isConnectedToJoystickServer}.
+     * TODO: Description of {@code isConnectedToJoystickServer}.
      *
      * @return
      */
@@ -93,7 +93,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Definición de {@code setServerIpAddress}.
+     * TODO: Description of {@code setServerIpAddress}.
      *
      */
     @Override
@@ -103,7 +103,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Definición de {@code setServerPort}.
+     * TODO: Description of {@code setServerPort}.
      *
      * @param serverPort
      * @throws java.lang.Exception
@@ -115,7 +115,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Definición de {@code setButtons}.
+     * TODO: Description of {@code setButtons}.
      *
      * @param joystickButtons
      * @throws java.lang.Exception
@@ -126,7 +126,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Definición de {@code setName}.
+     * TODO: Description of {@code setName}.
      *
      * @param name
      */
@@ -136,7 +136,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * FIXME: Definición de {@code onButtonStateChanged}. Invocado cuando se cambia el estado del
+     * FIXME: Description of {@code onButtonStateChanged}. Invocado cuando se cambia el estado del
      * componente gráfico de un botón.
      *
      * @param buttonNumber   es el número del botón que cambió.
@@ -158,7 +158,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * FIXME: Definición de {@code testServerConnection}. Prueba la conexión a un servidor con un
+     * FIXME: Description of {@code testServerConnection}. Prueba la conexión a un servidor con un
      * joystick.
      *
      * @return si se pudo establecer la conexión con el servidor.
@@ -168,7 +168,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * FIXME: Definición de {@code connectToServer}. Se conecta a un servidor con un joystick.
+     * FIXME: Description of {@code connectToServer}. Se conecta a un servidor con un joystick.
      *
      * @return si se pudo conectar el servidor.
      */
@@ -200,7 +200,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * FIXME: Definición de {@code disconnectToServer}. Se desconecta de de un servidor con un
+     * FIXME: Description of {@code disconnectToServer}. Se desconecta de de un servidor con un
      * joystick.
      *
      * @return si se pudo desconectar del servidor.

@@ -21,7 +21,7 @@ import com.project.dev.joystick.name.poly.PolyJoystick;
 import java.awt.event.KeyEvent;
 
 /**
- * FIXME: Definición de {@code PolyJoystickGraphicSetter}. Contiene las operaciones generales para
+ * FIXME: Description of {@code PolyJoystickGraphicSetter}. Contiene las operaciones generales para
  * un joystick de cualquier tipo y de nombre poly, para asignarle las imágenes genéricas que
  * representan la parte gráfica del joystick.
  *
@@ -31,7 +31,7 @@ import java.awt.event.KeyEvent;
 public class PolyJoystickGraphicSetter extends GenericJoystickGraphicSetter implements PolyJoystickGraphicConstant {
 
     /**
-     * FIXME: Definición de {@code setGenericJoystickGraphics}. Asigna los componnetes gráficos a un
+     * FIXME: Description of {@code setGenericJoystickGraphics}. Asigna los componnetes gráficos a un
      * joystick y sus botones.
      *
      * @param joystick es el joystick.

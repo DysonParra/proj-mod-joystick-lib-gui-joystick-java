@@ -20,7 +20,7 @@ import com.project.dev.joystick.name.poly.PolyJoystick;
 import com.project.dev.joystick.name.poly.setter.PolyJoystickButtonSetter;
 
 /**
- * FIXME: Definición de {@code PolyJoystickLocal}. Contiene las definiciones y operaciones para un
+ * FIXME: Description of {@code PolyJoystickLocal}. Contiene las definiciones y operaciones para un
  * joystick de nombre poly que funciona localmente.
  *
  * @author Dyson Parra
@@ -29,7 +29,7 @@ import com.project.dev.joystick.name.poly.setter.PolyJoystickButtonSetter;
 public class PolyJoystickLocal extends GenericJoystickLocal implements PolyJoystick {
 
     /**
-     * TODO: Definición de {@code PolyJoystickLocal}.
+     * TODO: Description of {@code PolyJoystickLocal}.
      *
      * @throws java.lang.Exception
      */

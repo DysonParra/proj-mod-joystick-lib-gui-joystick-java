@@ -17,7 +17,7 @@ package com.project.dev.joystick.name.poly;
 import com.project.dev.joystick.GenericComponent;
 
 /**
- * FIXME: Definición de {@code PolyJoystick}. Contiene las definiciones para un joystick de nombre
+ * FIXME: Description of {@code PolyJoystick}. Contiene las definiciones para un joystick de nombre
  * poly.
  *
  * @author Dyson Parra

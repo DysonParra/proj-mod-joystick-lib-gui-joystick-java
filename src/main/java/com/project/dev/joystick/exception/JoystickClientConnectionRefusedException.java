@@ -15,7 +15,7 @@
 package com.project.dev.joystick.exception;
 
 /**
- * FIXME: Definición de {@code JoystickClientConnectionRefusedException}. Exception que ocurre
+ * FIXME: Description of {@code JoystickClientConnectionRefusedException}. Exception que ocurre
  * cuando al usar la fábrica de joystick el cliente especificado no puede conectarse con el
  * servidor.
  *
@@ -25,7 +25,7 @@ package com.project.dev.joystick.exception;
 public class JoystickClientConnectionRefusedException extends Exception {
 
     /**
-     * TODO: Definición de {@code JoystickClientConnectionRefusedException}.
+     * TODO: Description of {@code JoystickClientConnectionRefusedException}.
      *
      * @param message es el mensaje que mostrará la exception.
      */

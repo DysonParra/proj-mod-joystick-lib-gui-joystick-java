@@ -17,7 +17,7 @@ package com.project.dev.joystick.name.nintendo;
 import com.project.dev.joystick.GenericComponent;
 
 /**
- * FIXME: Definición de {@code NintendoJoystick}. Contiene las definiciones para un joystick de
+ * FIXME: Description of {@code NintendoJoystick}. Contiene las definiciones para un joystick de
  * nombre nintendo.
  *
  * @author Dyson Parra

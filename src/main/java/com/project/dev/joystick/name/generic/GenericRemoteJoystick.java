@@ -19,7 +19,7 @@ import lombok.Data;
 import lombok.Setter;
 
 /**
- * FIXME: Definición de {@code GenericRemoteJoystick}. Contiene las operaciones y definiciones
+ * FIXME: Description of {@code GenericRemoteJoystick}. Contiene las operaciones y definiciones
  * generales que contiene un joystick de cualquier tipo y nombre, y además definiciones específicas
  * para un joystick que se comunica con otro através de la web haciendo uso de la biblioteca
  * GenericUdp.
@@ -43,7 +43,7 @@ public abstract class GenericRemoteJoystick extends GenericJoystick {
     protected int serverPort;                                                               // Puerto de conexión del servidor ya sea al que está conectado si es un cliente, o el puerto actual si es un servidor.
 
     /**
-     * TODO: Definición de {@code GenericRemoteJoystick}.
+     * TODO: Description of {@code GenericRemoteJoystick}.
      *
      * @param type es el tipo de joystick que será.
      * @param name es el nombre del joystick.
@@ -56,7 +56,7 @@ public abstract class GenericRemoteJoystick extends GenericJoystick {
     }
 
     /**
-     * TODO: Definición de {@code GenericRemoteJoystick}.
+     * TODO: Description of {@code GenericRemoteJoystick}.
      *
      * @param type es el tipo de joystick que será.
      * @throws java.lang.Exception
@@ -76,7 +76,7 @@ public abstract class GenericRemoteJoystick extends GenericJoystick {
     }
 
     /**
-     * FIXME: Definición de {@code setServerIpAddress}. Agrega dirección ip del servidor donde se va
+     * FIXME: Description of {@code setServerIpAddress}. Agrega dirección ip del servidor donde se va
      * aconectar a un joystick remoto.
      *
      * @param serverIpAddress Es la dirección ip del servidor.
@@ -85,7 +85,7 @@ public abstract class GenericRemoteJoystick extends GenericJoystick {
     protected abstract void setServerIpAddress(String serverIpAddress) throws Exception;
 
     /**
-     * FIXME: Definición de {@code setServerPort}. Escoge el puerto de conexión ya sea del servidor
+     * FIXME: Description of {@code setServerPort}. Escoge el puerto de conexión ya sea del servidor
      * o donde se conectará el cliente.
      *
      * @param serverPort Es el puerto d econexión del servidor.

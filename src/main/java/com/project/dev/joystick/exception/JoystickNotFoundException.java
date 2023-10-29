@@ -15,7 +15,7 @@
 package com.project.dev.joystick.exception;
 
 /**
- * FIXME: Definición de {@code JoystickNotFoundException}. Exception que ocurre cuando al usar la
+ * FIXME: Description of {@code JoystickNotFoundException}. Exception que ocurre cuando al usar la
  * fábrica de joystick el joystick con el nombre indicado no es encontrado en el classpath.
  *
  * @author Dyson Parra
@@ -24,7 +24,7 @@ package com.project.dev.joystick.exception;
 public class JoystickNotFoundException extends Exception {
 
     /**
-     * TODO: Definición de {@code JoystickNotFoundException}.
+     * TODO: Description of {@code JoystickNotFoundException}.
      *
      * @param message es el mensaje que mostrará la exception.
      */

@@ -19,7 +19,7 @@ import com.project.dev.joystick.button.GenericButton;
 import com.project.dev.joystick.name.generic.GenericJoystick;
 
 /**
- * FIXME: Definición de {@code GenericJoystickButtonSetter}. Especifica el comportamiento general
+ * FIXME: Description of {@code GenericJoystickButtonSetter}. Especifica el comportamiento general
  * para un joystick de cualquier nombre y tipo (excepto tipo cliente), para asignarle los botones.
  *
  * @author Dyson Parra
@@ -28,7 +28,7 @@ import com.project.dev.joystick.name.generic.GenericJoystick;
 public abstract class GenericJoystickButtonSetter implements GenericComponent {
 
     /**
-     * FIXME: Definición de {@code setGenericJoystickButtons}. Agrega los botones al joystick
+     * FIXME: Description of {@code setGenericJoystickButtons}. Agrega los botones al joystick
      * genérico.
      *
      * @param genericJoystick es el joystick genérico.
@@ -40,7 +40,7 @@ public abstract class GenericJoystickButtonSetter implements GenericComponent {
     }
 
     /**
-     * FIXME: Definición de {@code setGenericJoystickButtons}. Agrega los botones al joystick
+     * FIXME: Description of {@code setGenericJoystickButtons}. Agrega los botones al joystick
      * genérico.
      *
      * @param genericJoystick es el joystick genérico.

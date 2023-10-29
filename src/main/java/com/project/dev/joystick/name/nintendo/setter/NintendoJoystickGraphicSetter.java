@@ -21,7 +21,7 @@ import com.project.dev.joystick.name.nintendo.NintendoJoystick;
 import java.awt.event.KeyEvent;
 
 /**
- * FIXME: Definición de {@code NintendoJoystickGraphicSetter}. Contiene las operaciones generales
+ * FIXME: Description of {@code NintendoJoystickGraphicSetter}. Contiene las operaciones generales
  * para un joystick de cualquier tipo y de nombre nintendo, para asignarle las imágenes genéricas
  * que representan la parte gráfica del joystick.
  *
@@ -31,7 +31,7 @@ import java.awt.event.KeyEvent;
 public class NintendoJoystickGraphicSetter extends GenericJoystickGraphicSetter implements NintendoJoystickGraphicConstant {
 
     /**
-     * FIXME: Definición de {@code setGenericJoystickGraphics}. Asigna los componnetes gráficos a un
+     * FIXME: Description of {@code setGenericJoystickGraphics}. Asigna los componnetes gráficos a un
      * joystick y sus botones.
      *
      * @param joystick es el joystick.

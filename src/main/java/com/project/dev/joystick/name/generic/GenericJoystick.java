@@ -25,7 +25,7 @@ import lombok.Data;
 import lombok.Setter;
 
 /**
- * FIXME: Definición de {@code GenericJoystick}. Contiene las operaciones y definiciones generales
+ * FIXME: Description of {@code GenericJoystick}. Contiene las operaciones y definiciones generales
  * que contiene un joystick de cualquier tipo y nombre.
  *
  * @author Dyson Parra
@@ -58,7 +58,7 @@ public abstract class GenericJoystick implements GenericComponent {
     protected GraphicJoystick onGraphicListener;                                // Componente gráfico asociado al joystick.
 
     /**
-     * TODO: Definición de {@code GenericJoystick}.
+     * TODO: Description of {@code GenericJoystick}.
      *
      * @param type es el tipo de joystick que será.
      * @param name es el nombre del joystick.
@@ -77,7 +77,7 @@ public abstract class GenericJoystick implements GenericComponent {
     }
 
     /**
-     * TODO: Definición de {@code getButtons}.
+     * TODO: Description of {@code getButtons}.
      *
      * @return
      */
@@ -88,7 +88,7 @@ public abstract class GenericJoystick implements GenericComponent {
     public abstract void setButtons(GenericButton[] newButtons) throws Exception;
 
     /**
-     * FIXME: Definición de {@code onButtonStateChanged}. Invocado cuando se cambia el estado de un
+     * FIXME: Description of {@code onButtonStateChanged}. Invocado cuando se cambia el estado de un
      * botón del joystick.
      *
      * @param buttonNumber   es el número del botón que cambió.
@@ -98,7 +98,7 @@ public abstract class GenericJoystick implements GenericComponent {
     public abstract boolean onButtonStateChanged(int buttonNumber, byte newButtonState);
 
     /**
-     * TODO: Definición de {@code getBackground}.
+     * TODO: Description of {@code getBackground}.
      *
      * @return
      */
@@ -107,7 +107,7 @@ public abstract class GenericJoystick implements GenericComponent {
     }
 
     /**
-     * TODO: Definición de {@code setBackground}.
+     * TODO: Description of {@code setBackground}.
      *
      * @param imageFactory
      * @param path
@@ -118,7 +118,7 @@ public abstract class GenericJoystick implements GenericComponent {
     }
 
     /**
-     * TODO: Definición de {@code setBackground}.
+     * TODO: Description of {@code setBackground}.
      *
      * @param imageFactory
      * @param positionY
@@ -131,7 +131,7 @@ public abstract class GenericJoystick implements GenericComponent {
     }
 
     /**
-     * TODO: Definición de {@code setBackground}.
+     * TODO: Description of {@code setBackground}.
      *
      * @param imageFactory
      * @param path
@@ -146,7 +146,7 @@ public abstract class GenericJoystick implements GenericComponent {
     }
 
     /**
-     * TODO: Definición de {@code setIconImage}.
+     * TODO: Description of {@code setIconImage}.
      *
      * @param imageFactory
      * @param path
@@ -157,7 +157,7 @@ public abstract class GenericJoystick implements GenericComponent {
     }
 
     /**
-     * TODO: Definición de {@code setIconImage}.
+     * TODO: Description of {@code setIconImage}.
      *
      * @param imageFactory
      * @param positionY
@@ -170,7 +170,7 @@ public abstract class GenericJoystick implements GenericComponent {
     }
 
     /**
-     * TODO: Definición de {@code setIconImage}.
+     * TODO: Description of {@code setIconImage}.
      *
      * @param imageFactory
      * @param path
@@ -185,7 +185,7 @@ public abstract class GenericJoystick implements GenericComponent {
     }
 
     /**
-     * FIXME: Definición de {@code setButtonsImages}. Asigna imágenes que tendrán los botones en el
+     * FIXME: Description of {@code setButtonsImages}. Asigna imágenes que tendrán los botones en el
      * estado indicado.
      *
      * @param imageFactory Es la fabrica de imagenes genéricas.
@@ -218,7 +218,7 @@ public abstract class GenericJoystick implements GenericComponent {
     }
 
     /**
-     * FIXME: Definición de {@code setButtonsImages}. Asigna imágenes que tendrán los botones en el
+     * FIXME: Description of {@code setButtonsImages}. Asigna imágenes que tendrán los botones en el
      * estado indicado.
      *
      * @param imageFactory Es la fabrica de imagenes genéricas.
@@ -246,7 +246,7 @@ public abstract class GenericJoystick implements GenericComponent {
     }
 
     /**
-     * FIXME: Definición de {@code setButtonsImages}. Asigna imágenes que tendrán los botones en el
+     * FIXME: Description of {@code setButtonsImages}. Asigna imágenes que tendrán los botones en el
      * estado indicado.
      *
      * @param imageFactory Es la fabrica de imagenes genéricas.
@@ -270,7 +270,7 @@ public abstract class GenericJoystick implements GenericComponent {
     }
 
     /**
-     * FIXME: Definición de {@code setButtonsKeyEvents}. Asigna teclas del teclado a los botones.
+     * FIXME: Description of {@code setButtonsKeyEvents}. Asigna teclas del teclado a los botones.
      *
      * @param buttonNames     Son los nombres de los botones a los que se les asignará la tecla
      *                        indicada.
@@ -285,7 +285,7 @@ public abstract class GenericJoystick implements GenericComponent {
     }
 
     /**
-     * FIXME: Definición de {@code scaleImages}. Cambia la resolución de las imágenes de los botones
+     * FIXME: Description of {@code scaleImages}. Cambia la resolución de las imágenes de los botones
      * y el joystick.
      *
      * @param percent es el porcentaje de escalado del joystick.
@@ -313,7 +313,7 @@ public abstract class GenericJoystick implements GenericComponent {
     }
 
     /**
-     * FIXME: Definición de {@code scaleImagesWidth}. Cambia la resolución de las imágenes de los
+     * FIXME: Description of {@code scaleImagesWidth}. Cambia la resolución de las imágenes de los
      * botones y el joystick basado en un ancho en píxeles.
      *
      * @param newWidth es el porcentaje de escalado del joystick.
@@ -325,7 +325,7 @@ public abstract class GenericJoystick implements GenericComponent {
     }
 
     /**
-     * FIXME: Definición de {@code scaleImagesHeight}. Cambia la resolución de las imágenes de los
+     * FIXME: Description of {@code scaleImagesHeight}. Cambia la resolución de las imágenes de los
      * botones y el joystick basado en un alto en píxeles.
      *
      * @param newHeight es el nuevo alto del joystick.
@@ -337,7 +337,7 @@ public abstract class GenericJoystick implements GenericComponent {
     }
 
     /**
-     * FIXME: Definición de {@code getButton}. Busca un botón en el joystick.
+     * FIXME: Description of {@code getButton}. Busca un botón en el joystick.
      *
      * @param buttonName es el nombre del botón que se buscará.
      * @return el botón con el nombre indicado o null si no se encuentró.
@@ -355,7 +355,7 @@ public abstract class GenericJoystick implements GenericComponent {
     }
 
     /**
-     * FIXME: Definición de {@code removeButtonActionListeners}. Quita los listener de acción de
+     * FIXME: Description of {@code removeButtonActionListeners}. Quita los listener de acción de
      * cada uno de sus botones.
      */
     public void removeButtonActionListeners() {
