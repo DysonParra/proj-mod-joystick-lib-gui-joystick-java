@@ -97,15 +97,15 @@ public class GenericJoystickServer extends GenericRemoteJoystick {
             this.buttons = newButtons;                                                      // Almacena los botones indicados como parametro.
             this.buttonQuantity = this.buttons.length;                                      // Almacena la cantidad de botones del control.
             this.prevButtonsStates = new byte[buttonQuantity];
-            this.actualButtonsStates = new byte[buttonQuantity];
-            for (int i = 0; i < actualButtonsStates.length; i++) {
-                actualButtonsStates[i] = BUTTON_UNPRESSED;
+            this.currentButtonsStates = new byte[buttonQuantity];
+            for (int i = 0; i < currentButtonsStates.length; i++) {
+                currentButtonsStates[i] = BUTTON_UNPRESSED;
                 prevButtonsStates[i] = BUTTON_UNPRESSED;
             }
             int maxButtonNameSize = GenericButton.MAX_BUTTON_NAME_SIZE;                     // Almacena el tamaño máximo del nombre de cada botón.
 
             int messageSize = maxButtonNameSize > buttonQuantity
-                    ? maxButtonNameSize : buttonQuantity;                                      // Almacena el tamaño de lso mensajes como el mayor entre la máxima longitud del nombre de cada botón y la cantidad de botones.
+                    ? maxButtonNameSize : buttonQuantity;                                   // Almacena el tamaño de los mensajes como el mayor entre la máxima longitud del nombre de cada botón y la cantidad de botones.
 
             udpServer = new GenericUdpServer(messageSize);                                  // Inicializa el servidor udp con tamaño de mensaje indicado.
             udpServer.setOnRequestListener(new UdpServerListener() {
@@ -123,14 +123,14 @@ public class GenericJoystickServer extends GenericRemoteJoystick {
                 @Override
                 public boolean onGenericRequest(byte[] requestMessage) {
                     //System.out.println(new String(getPrevButtonsStates()));
-                    //System.out.println(new String(getActualButtonsStates()));
+                    //System.out.println(new String(getCurrentButtonsStates()));
                     //System.out.println(new String(requestMessage));
 
-                    if (requestMessage.length != actualButtonsStates.length)
+                    if (requestMessage.length != currentButtonsStates.length)
                         return false;
 
-                    prevButtonsStates = actualButtonsStates;                                // Almacena los estados anteriores de los botones.
-                    actualButtonsStates = requestMessage;                                   // Obtiene los nuevos estados de los botones.
+                    prevButtonsStates = currentButtonsStates;                               // Almacena los estados anteriores de los botones.
+                    currentButtonsStates = requestMessage;                                  // Obtiene los nuevos estados de los botones.
                     onClientUpdateButtonStatesRequest();                                    // Ejecuta acción si se actualizan los estados de los botones.
                     return true;
                 }
@@ -150,8 +150,8 @@ public class GenericJoystickServer extends GenericRemoteJoystick {
                             if (Pattern.matches(GET_BUTTON_NAME_REQUEST_REGEX, clientMessage)) {
                                 int buttonNumber = Integer.valueOf(clientMessage.substring(clientMessage.indexOf(':') + 1));
                                 if (buttonNumber < getButtonQuantity()) {
-                                    GenericButton actualButton = buttons[buttonNumber];
-                                    return actualButton.getName();
+                                    GenericButton currentButton = buttons[buttonNumber];
+                                    return currentButton.getName();
                                 } else
                                     return GenericUdpServer.RESPONSE_REJECT;
                             } else
@@ -233,7 +233,7 @@ public class GenericJoystickServer extends GenericRemoteJoystick {
         if (udpServer != null && udpServer.isStartServer()) {                   // Si el servidor udp ya se creo y está corriendo.
             udpServer.stop();                                                   // Para el servidor.
             return true;                                                        // Devuelve indicando operación exitosa.
-        } else                                                                    // Si el servidor udp no se ha creado o no está ejecutandose.
+        } else                                                                  // Si el servidor udp no se ha creado o no está ejecutandose.
             return false;                                                       // Devuelve indicando operación no exitosa.
     }
 
@@ -242,12 +242,12 @@ public class GenericJoystickServer extends GenericRemoteJoystick {
      * que se obtenga una petición de actualización de estado de los botones del joystick genérico.
      */
     private void onClientUpdateButtonStatesRequest() {
-        for (int i = 0; i < actualButtonsStates.length; i++)
-            //if (actualButtonsStates[i] != prevButtonsStates[i])               // Si el botón cambió de estado.
-            switch (actualButtonsStates[i]) {
+        for (int i = 0; i < currentButtonsStates.length; i++)
+            //if (currentButtonsStates[i] != prevButtonsStates[i])          // Si el botón cambió de estado.
+            switch (currentButtonsStates[i]) {
                 case BUTTON_UNPRESSED:                                      // El estado es Unpressed.
                 case BUTTON_RELEASED:                                       // El estado es released.
-                    if (actualButtonsStates[i] != prevButtonsStates[i])     // Si el botón cambió de estado.
+                    if (currentButtonsStates[i] != prevButtonsStates[i])    // Si el botón cambió de estado.
                         buttons[i].unTouchButton();
                     break;
 

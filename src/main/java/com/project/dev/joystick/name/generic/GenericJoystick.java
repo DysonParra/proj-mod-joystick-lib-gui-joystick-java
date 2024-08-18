@@ -51,7 +51,7 @@ public abstract class GenericJoystick implements GenericComponent {
     @Setter(AccessLevel.NONE)
     protected byte[] prevButtonsStates;                                         // Estado anterior de los botones del joystick.
     @Setter(AccessLevel.NONE)
-    protected byte[] actualButtonsStates;                                       // Estado actual de los botones del joystick.
+    protected byte[] currentButtonsStates;                                      // Estado actual de los botones del joystick.
 
     protected GenericImage backgroundImage;                                     // Imagen de fondo del joystick.
     protected GenericImage iconImage;                                           // Icono del joystick.
@@ -72,7 +72,7 @@ public abstract class GenericJoystick implements GenericComponent {
         this.type = type;                                                       // Inicializa el tipo de joystick que es.
         this.name = name;                                                       // Indica el nombre del joystick.
         this.buttonQuantity = 0;                                                // Inicializa la cantidad de botones.
-        this.actualButtonsStates = null;                                        // Inicializa el estado actual de los botones.
+        this.currentButtonsStates = null;                                       // Inicializa el estado actual de los botones.
         this.buttons = null;                                                    // Inicializa los botones.
     }
 
@@ -370,6 +370,6 @@ public abstract class GenericJoystick implements GenericComponent {
      */
     @Override
     public String toString() {
-        return "GenericJoystick{" + "type=" + type + ", name=" + name + ", buttons=" + Arrays.toString(buttons) + ", buttonQuantity=" + buttonQuantity + ", prevButtonsStates=" + Arrays.toString(prevButtonsStates) + ", actualButtonsStates=" + Arrays.toString(actualButtonsStates) + ", backgroundImage=" + backgroundImage + ", onGraphicListener=" + onGraphicListener + '}';
+        return "GenericJoystick{" + "type=" + type + ", name=" + name + ", buttons=" + Arrays.toString(buttons) + ", buttonQuantity=" + buttonQuantity + ", prevButtonsStates=" + Arrays.toString(prevButtonsStates) + ", currentButtonsStates=" + Arrays.toString(currentButtonsStates) + ", backgroundImage=" + backgroundImage + ", onGraphicListener=" + onGraphicListener + '}';
     }
 }

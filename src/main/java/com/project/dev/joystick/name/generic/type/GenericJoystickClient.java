@@ -145,11 +145,11 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
      */
     @Override
     public final boolean onButtonStateChanged(int buttonNumber, byte newButtonState) {
-        this.prevButtonsStates[buttonNumber] = this.actualButtonsStates[buttonNumber];
-        this.actualButtonsStates[buttonNumber] = newButtonState;
-        //System.out.println(getJoystickType() + ": " + new String(getActualButtonsStates()));
-        if (!this.udpClient.sendGenericRequest(timeOutUpdateButtonsRequest, actualButtonsStates, false)) {
-            this.actualButtonsStates[buttonNumber] = this.prevButtonsStates[buttonNumber];
+        this.prevButtonsStates[buttonNumber] = this.currentButtonsStates[buttonNumber];
+        this.currentButtonsStates[buttonNumber] = newButtonState;
+        //System.out.println(getJoystickType() + ": " + new String(getCurrentButtonsStates()));
+        if (!this.udpClient.sendGenericRequest(timeOutUpdateButtonsRequest, currentButtonsStates, false)) {
+            this.currentButtonsStates[buttonNumber] = this.prevButtonsStates[buttonNumber];
             if (onJoystickClientListener != null)
                 onJoystickClientListener.onUpdateButtonsStatesTimeOut();
             return false;
@@ -181,12 +181,12 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
             setName(udpClient.getStringResponse());                                 // Asigna al joystick el mismo nombre que el servidor.
 
             buttons = new GenericButton[buttonQuantity];
-            actualButtonsStates = new byte[buttonQuantity];                         // Estados de cada botón.
+            currentButtonsStates = new byte[buttonQuantity];                        // Estados de cada botón.
             prevButtonsStates = new byte[buttonQuantity];                           // Estados anteriores de cada botón.
             String buttonName;                                                      // Nombre de cada botón a crear.
 
             for (int i = 0; i < buttons.length; i++) {
-                actualButtonsStates[i] = GenericJoystickClient.BUTTON_UNPRESSED;
+                currentButtonsStates[i] = GenericJoystickClient.BUTTON_UNPRESSED;
                 udpClient.sendGenericRequest(1000, GET_BUTTON_NAME_REQUEST + i, true);
                 buttonName = udpClient.getStringResponse();
                 buttons[i] = new GenericButton(buttonName);                         // Crea un nuevo botón.

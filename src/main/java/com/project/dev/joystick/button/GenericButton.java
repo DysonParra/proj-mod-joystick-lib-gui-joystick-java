@@ -56,7 +56,7 @@ public class GenericButton implements GenericComponent {
     @Setter(AccessLevel.NONE)
     protected byte prevButtonState = BUTTON_UNPRESSED;                          // Estado anterior del botón.
     @Setter(AccessLevel.NONE)
-    protected byte actualButtonState = BUTTON_UNPRESSED;                        // Estado actual del botón.
+    protected byte currentButtonState = BUTTON_UNPRESSED;                       // Estado actual del botón.
 
     /**
      * TODO: Description of {@code GenericButton}.
@@ -257,42 +257,42 @@ public class GenericButton implements GenericComponent {
      */
     public boolean touchButton() {
         boolean result = false;                                                                                         // Si fue posible editar el estado del botón.
-        prevButtonState = actualButtonState;                                                                            // Almacena el estado actual del botón como anterior.
-        switch (actualButtonState) {                                                                                    // Evalúa el estado actual del botón.
+        prevButtonState = currentButtonState;                                                                           // Almacena el estado actual del botón como anterior.
+        switch (currentButtonState) {                                                                                   // Evalúa el estado actual del botón.
             case BUTTON_UNPRESSED:                                                                                      // El estado es Unpressed.
             case BUTTON_RELEASED:                                                                                       // El estado es released.
-                actualButtonState = BUTTON_TYPED;                                                                       // Marca el estado del botón.
+                currentButtonState = BUTTON_TYPED;                                                                      // Marca el estado del botón.
                 result = true;                                                                                          // Indica que fue posible cambiar el estado del botón.
                 if (joystick != null)                                                                                   // Si hay un joystick asociado al botón.
-                    result = joystick.onButtonStateChanged(id, actualButtonState);                                      // Notifica al joystick el cambio de estado del botón y obtiene el resultado.
+                    result = joystick.onButtonStateChanged(id, currentButtonState);                                     // Notifica al joystick el cambio de estado del botón y obtiene el resultado.
                 if (result) {                                                                                           // Si el resultado es verdarero todavía.
                     if (onGraphicListener != null)                                                                      // Si hay un componente genérico asociado al botón.
-                        onGraphicListener.onButtonStateChanged(actualButtonState, getButtonImage(actualButtonState));   // Ejecuta acción para el botón gráfico asociado.
+                        onGraphicListener.onButtonStateChanged(currentButtonState, getButtonImage(currentButtonState)); // Ejecuta acción para el botón gráfico asociado.
                     if (onActionListener != null) {                                                                     // Si el botón tiene un listener.
                         onActionListener.onTyped();                                                                     // Realiza acción para el nuevo estado del botón.
-                        //onActionListener.setActualButtonState(actualButtonState);
+                        //onActionListener.setCurrentButtonState(currentButtonState);
                         //onActionListener.run();
                     }
                 } else                                                                                                  // Si el resultado ya no es verdarero.
-                    actualButtonState = prevButtonState;                                                                // Devuelve el estado del botón al estado anterior.
+                    currentButtonState = prevButtonState;                                                               // Devuelve el estado del botón al estado anterior.
                 break;
 
             case BUTTON_TYPED:                                                                                          // El estado es typed.
             case BUTTON_PRESSED:                                                                                        // El estado es Pressed.
-                actualButtonState = BUTTON_PRESSED;                                                                     // Marca el estado del botón.
+                currentButtonState = BUTTON_PRESSED;                                                                    // Marca el estado del botón.
                 result = true;                                                                                          // Indica que fue posible cambiar el estado del botón.
                 if (joystick != null)                                                                                   // Si hay un joystick asociado al botón.
-                    result = joystick.onButtonStateChanged(id, actualButtonState);                                      // Notifica al joystick el cambio de estado del botón y obtiene el resultado.
+                    result = joystick.onButtonStateChanged(id, currentButtonState);                                     // Notifica al joystick el cambio de estado del botón y obtiene el resultado.
                 if (result) {                                                                                           // Si el resultado es verdarero todavía.
-                    if (onGraphicListener != null && actualButtonState == BUTTON_TYPED)                                 // Si hay un componente genérico asociado al botón.
-                        onGraphicListener.onButtonStateChanged(actualButtonState, getButtonImage(actualButtonState));   // Ejecuta acción para el botón gráfico asociado.
+                    if (onGraphicListener != null && currentButtonState == BUTTON_TYPED)                                // Si hay un componente genérico asociado al botón.
+                        onGraphicListener.onButtonStateChanged(currentButtonState, getButtonImage(currentButtonState)); // Ejecuta acción para el botón gráfico asociado.
                     if (onActionListener != null) {                                                                     // Si el botón tiene un listener.
                         onActionListener.onPressed();                                                                   // Realiza acción para el nuevo estado del botón.
-                        //onActionListener.setActualButtonState(actualButtonState);
+                        //onActionListener.setCurrentButtonState(currentButtonState);
                         //onActionListener.run();
                     }
-                } else                                                                                                    // Si el resultado ya no es verdarero.
-                    actualButtonState = prevButtonState;                                                                // Devuelve el estado del botón al estado anterior.
+                } else                                                                                                  // Si el resultado ya no es verdarero.
+                    currentButtonState = prevButtonState;                                                               // Devuelve el estado del botón al estado anterior.
                 break;
         }
 
@@ -306,42 +306,42 @@ public class GenericButton implements GenericComponent {
      */
     public boolean unTouchButton() {
         boolean result = false;                                                                                         // Si fue posible editar el estado del botón.
-        prevButtonState = actualButtonState;                                                                            // Almacena el estado actual del botón como anterior.
-        switch (actualButtonState) {                                                                                    // Evalúa el estado actual del botón.
+        prevButtonState = currentButtonState;                                                                           // Almacena el estado actual del botón como anterior.
+        switch (currentButtonState) {                                                                                   // Evalúa el estado actual del botón.
             case BUTTON_UNPRESSED:                                                                                      // El estado es Unpressed.
             case BUTTON_RELEASED:                                                                                       // El estado es released.
-                actualButtonState = BUTTON_UNPRESSED;                                                                   // Marca el estado del botón.
+                currentButtonState = BUTTON_UNPRESSED;                                                                  // Marca el estado del botón.
                 result = true;                                                                                          // Indica que fue posible cambiar el estado del botón.
                 if (joystick != null)                                                                                   // Si hay un joystick asociado al botón.
-                    result = joystick.onButtonStateChanged(id, actualButtonState);                                      // Notifica al joystick el cambio de estado del botón y obtiene el resultado.
+                    result = joystick.onButtonStateChanged(id, currentButtonState);                                     // Notifica al joystick el cambio de estado del botón y obtiene el resultado.
                 if (result) {                                                                                           // Si el resultado es verdarero todavía.
                     if (onGraphicListener != null)                                                                      // Si hay un componente genérico asociado al botón.
-                        onGraphicListener.onButtonStateChanged(actualButtonState, getButtonImage(actualButtonState));   // Ejecuta acción para el botón gráfico asociado.
+                        onGraphicListener.onButtonStateChanged(currentButtonState, getButtonImage(currentButtonState)); // Ejecuta acción para el botón gráfico asociado.
                     if (onActionListener != null) {                                                                     // Si el botón tiene un listener.
                         onActionListener.onUnpressed();                                                                 // Realiza acción para el nuevo estado del botón.
-                        //onActionListener.setActualButtonState(actualButtonState);
+                        //onActionListener.setCurrentButtonState(currentButtonState);
                         //onActionListener.run();
                     }
                 } else                                                                                                  // Si el resultado ya no es verdarero.
-                    actualButtonState = prevButtonState;                                                                // Devuelve el estado del botón al estado anterior.
+                    currentButtonState = prevButtonState;                                                               // Devuelve el estado del botón al estado anterior.
                 break;
 
             case BUTTON_TYPED:                                                                                          // El estado es typed.
             case BUTTON_PRESSED:                                                                                        // El estado es Pressed.
-                actualButtonState = BUTTON_RELEASED;                                                                    // Marca el estado del botón.
+                currentButtonState = BUTTON_RELEASED;                                                                   // Marca el estado del botón.
                 result = true;                                                                                          // Indica que fue posible cambiar el estado del botón.
                 if (joystick != null)                                                                                   // Si hay un joystick asociado al botón.
-                    result = joystick.onButtonStateChanged(id, actualButtonState);                                      // Notifica al joystick el cambio de estado del botón y obtiene el resultado.
+                    result = joystick.onButtonStateChanged(id, currentButtonState);                                     // Notifica al joystick el cambio de estado del botón y obtiene el resultado.
                 if (result) {                                                                                           // Si el resultado es verdarero todavía.
                     if (onGraphicListener != null)                                                                      // Si hay un componente genérico asociado al botón.
-                        onGraphicListener.onButtonStateChanged(actualButtonState, getButtonImage(actualButtonState));   // Ejecuta acción para el botón gráfico asociado.
+                        onGraphicListener.onButtonStateChanged(currentButtonState, getButtonImage(currentButtonState)); // Ejecuta acción para el botón gráfico asociado.
                     if (onActionListener != null) {                                                                     // Si el botón tiene un listener.
                         onActionListener.onReleased();                                                                  // Realiza acción para el nuevo estado del botón.
-                        //onActionListener.setActualButtonState(actualButtonState);
+                        //onActionListener.setCurrentButtonState(currentButtonState);
                         //onActionListener.run();
                     }
-                } else                                                                                                    // Si el resultado ya no es verdarero.
-                    actualButtonState = prevButtonState;                                                                // Devuelve el estado del botón al estado anterior.
+                } else                                                                                                  // Si el resultado ya no es verdarero.
+                    currentButtonState = prevButtonState;                                                               // Devuelve el estado del botón al estado anterior.
                 break;
         }
 
@@ -355,6 +355,6 @@ public class GenericButton implements GenericComponent {
      */
     @Override
     public String toString() {
-        return "GenericButton{" + "actualButtonState=" + actualButtonState + ", name=" + name + ", id=" + id + ", keyEvent=" + keyEvent + ", buttonImages=" + buttonImages + '}';
+        return "GenericButton{" + "currentButtonState=" + currentButtonState + ", name=" + name + ", id=" + id + ", keyEvent=" + keyEvent + ", buttonImages=" + buttonImages + '}';
     }
 }

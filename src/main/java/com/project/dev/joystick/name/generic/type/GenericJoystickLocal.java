@@ -58,9 +58,9 @@ public class GenericJoystickLocal extends GenericJoystick {
             this.buttons = newButtons;                                          // Almacena los botones indicados como parametro.
             this.buttonQuantity = newButtons.length;                            // Almacena la cantidad de botones del joystick.
             this.prevButtonsStates = new byte[buttonQuantity];
-            this.actualButtonsStates = new byte[buttonQuantity];
-            for (int i = 0; i < actualButtonsStates.length; i++) {
-                actualButtonsStates[i] = BUTTON_UNPRESSED;
+            this.currentButtonsStates = new byte[buttonQuantity];
+            for (int i = 0; i < currentButtonsStates.length; i++) {
+                currentButtonsStates[i] = BUTTON_UNPRESSED;
                 prevButtonsStates[i] = BUTTON_UNPRESSED;
             }
         } catch (Exception e) {
