@@ -148,7 +148,7 @@ public class GenericJoystickServer extends GenericRemoteJoystick {
 
                         default:
                             if (Pattern.matches(GET_BUTTON_NAME_REQUEST_REGEX, clientMessage)) {
-                                int buttonNumber = Integer.valueOf(clientMessage.substring(clientMessage.indexOf(':') + 1));
+                                int buttonNumber = Integer.parseInt(clientMessage.substring(clientMessage.indexOf(':') + 1));
                                 if (buttonNumber < getButtonQuantity()) {
                                     GenericButton currentButton = buttons[buttonNumber];
                                     return currentButton.getName();

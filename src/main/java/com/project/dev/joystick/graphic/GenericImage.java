@@ -88,11 +88,21 @@ public abstract class GenericImage implements GenericComponent {
         onHeightChange();
     }
 
+    /**
+     * TODO: Description of {@code setPositionX}.
+     *
+     * @param positionX
+     */
     public final void setPositionX(int positionX) {
         this.positionX = positionX;
         onPositionXChange();
     }
 
+    /**
+     * TODO: Description of {@code setPositionY}.
+     *
+     * @param positionY
+     */
     public final void setPositionY(int positionY) {
         this.positionY = positionY;
         onPositionYChange();

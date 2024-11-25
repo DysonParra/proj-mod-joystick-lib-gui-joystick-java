@@ -175,7 +175,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     public final boolean connectToServer() {
         if (udpClient.sendConnectRequest(timeOutConnectionRequest)) {               // Si es posible conectarse al servidor.
             udpClient.sendGenericRequest(1000, GET_BUTTON_QUANTITY_REQUEST, true);  // Obtiene la cantidad de botones sel servidor.
-            buttonQuantity = Integer.valueOf(udpClient.getStringResponse());
+            buttonQuantity = Integer.parseInt(udpClient.getStringResponse());
 
             udpClient.sendGenericRequest(1000, GET_JOYSTICK_NAME_REQUEST, true);    // Obtiene el nombre del joystick sel servidor.
             setName(udpClient.getStringResponse());                                 // Asigna al joystick el mismo nombre que el servidor.
