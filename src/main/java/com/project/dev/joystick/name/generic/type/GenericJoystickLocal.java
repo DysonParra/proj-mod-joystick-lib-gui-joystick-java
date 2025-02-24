@@ -23,7 +23,7 @@ import com.project.dev.joystick.name.generic.GenericJoystick;
  * para un joystick que no se comunica con otros joystick.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public class GenericJoystickLocal extends GenericJoystick {
 

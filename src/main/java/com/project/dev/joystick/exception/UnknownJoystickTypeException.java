@@ -19,7 +19,7 @@ package com.project.dev.joystick.exception;
  * fábrica de joystick el tipo de joystick especificado no existe.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public class UnknownJoystickTypeException extends Exception {
 

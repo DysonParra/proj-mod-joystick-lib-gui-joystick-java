@@ -26,7 +26,7 @@ import java.awt.event.KeyEvent;
  * representan la parte gráfica del joystick.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public class PolyJoystickGraphicSetter extends GenericJoystickGraphicSetter implements PolyJoystickGraphicConstant {
 

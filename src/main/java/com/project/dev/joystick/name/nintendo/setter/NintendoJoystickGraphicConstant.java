@@ -18,7 +18,7 @@ package com.project.dev.joystick.name.nintendo.setter;
  * TODO: Description of {@code NintendoJoystickGraphicConstant}.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public interface NintendoJoystickGraphicConstant {
 

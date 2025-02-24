@@ -24,7 +24,7 @@ import com.project.dev.joystick.name.generic.GenericJoystick;
  * imprimir en pantalla a cada boton de un joystick de cualquier tipo y nombre.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public class GenericJoystickPrintActionSetter implements GenericComponent {
 

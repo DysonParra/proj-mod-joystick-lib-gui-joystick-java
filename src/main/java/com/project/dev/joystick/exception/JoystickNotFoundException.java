@@ -19,7 +19,7 @@ package com.project.dev.joystick.exception;
  * fábrica de joystick el joystick con el nombre indicado no es encontrado en el classpath.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public class JoystickNotFoundException extends Exception {
 

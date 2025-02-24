@@ -21,7 +21,7 @@ import com.project.dev.joystick.GenericComponent;
  * botón genérico cuando cambia de estado.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public abstract class GenericButtonActionListener implements GenericComponent {
 

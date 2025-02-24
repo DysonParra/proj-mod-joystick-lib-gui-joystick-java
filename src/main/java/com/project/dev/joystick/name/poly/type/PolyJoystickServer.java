@@ -24,7 +24,7 @@ import com.project.dev.joystick.name.poly.setter.PolyJoystickButtonSetter;
  * joystick de nombre poly que recibe peticiones através de la web usando la biblioteca GenericUdp.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public class PolyJoystickServer extends GenericJoystickServer implements PolyJoystick {
 

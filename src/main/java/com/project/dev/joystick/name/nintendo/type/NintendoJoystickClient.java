@@ -23,7 +23,7 @@ import com.project.dev.joystick.name.nintendo.NintendoJoystick;
  * GenericUdp.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public class NintendoJoystickClient extends GenericJoystickClient implements NintendoJoystick {
 

@@ -31,7 +31,7 @@ import static com.project.dev.joystick.name.generic.GenericJoystick.JOYSTICK_TYP
  * del joystick en el classpath.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public class JoystickFactory {
 

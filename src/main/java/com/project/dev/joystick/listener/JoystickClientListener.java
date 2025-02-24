@@ -19,7 +19,7 @@ package com.project.dev.joystick.listener;
  * joystick cliente en algún momento específico.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public interface JoystickClientListener {
 

@@ -25,7 +25,7 @@ import com.project.dev.joystick.name.nintendo.setter.NintendoJoystickButtonSette
  * GenericUdp.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public class NintendoJoystickServer extends GenericJoystickServer implements NintendoJoystick {
 

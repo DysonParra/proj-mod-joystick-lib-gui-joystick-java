@@ -24,7 +24,7 @@ import com.project.dev.joystick.name.nintendo.setter.NintendoJoystickButtonSette
  * un joystick de nombre nintendo que funciona localmente.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public class NintendoJoystickLocal extends GenericJoystickLocal implements NintendoJoystick {
 

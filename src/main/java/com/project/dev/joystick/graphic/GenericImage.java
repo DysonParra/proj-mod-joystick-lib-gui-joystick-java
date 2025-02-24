@@ -23,7 +23,7 @@ import lombok.Data;
  * en memoria se deja a cada sistema operativo.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 //@AllArgsConstructor
 //@Builder

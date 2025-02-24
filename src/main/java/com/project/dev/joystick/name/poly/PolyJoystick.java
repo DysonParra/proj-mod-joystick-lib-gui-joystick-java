@@ -21,7 +21,7 @@ import com.project.dev.joystick.GenericComponent;
  * poly.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public interface PolyJoystick extends GenericComponent {
 
