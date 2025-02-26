@@ -26,12 +26,14 @@ public interface JoystickServerListener {
     /**
      * FIXME: Description of {@code onClientConnected}. Realiza una acción luego de que se obtenga
      * una petición de conección al joystick genérico.
+     *
      */
     public abstract void onClientConnected();
 
     /**
      * FIXME: Description of {@code onClientDisconnected}. Realiza una acción luego de que se obtenga
      * una petición de desconexión al joystick genérico.
+     *
      */
     public abstract void onClientDisconnected();
 }

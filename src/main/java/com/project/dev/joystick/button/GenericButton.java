@@ -60,6 +60,7 @@ public class GenericButton implements GenericComponent {
 
     /**
      * TODO: Description of {@code GenericButton}.
+     *
      */
     public GenericButton() {
         GenericButton.buttonNumber++;                                           // Aumenta la cantidad de botones creados.
@@ -349,9 +350,9 @@ public class GenericButton implements GenericComponent {
     }
 
     /**
-     * Obtiene el valor en {String} del objeto actual.
+     * Get the current {@code Object} as {@code String}.
      *
-     * @return un {String} con la representación del objeto.
+     * @return {@code String} representing this {@code Object}.
      */
     @Override
     public String toString() {

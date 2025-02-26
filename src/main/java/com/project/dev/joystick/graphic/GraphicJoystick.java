@@ -52,6 +52,7 @@ public interface GraphicJoystick extends GenericComponent {
     /**
      * FIXME: Description of {@code onJoystickScale}. Realiza una acción luego de que el joystick al
      * que pertenece cambia de imagen.
+     *
      */
     public abstract void onJoystickScale();
 

@@ -26,6 +26,7 @@ public interface JoystickClientListener {
     /**
      * FIXME: Description of {@code onUpdateButtonsStatesTimeOut}. Realiza una acción luego de no sea
      * posible actualizar el estado de los botones del joystick servidor.
+     *
      */
     public abstract void onUpdateButtonsStatesTimeOut();
 }

@@ -85,6 +85,10 @@ public abstract class GenericJoystick implements GenericComponent {
         return buttons;
     }
 
+    /**
+     * TODO: Description of {@code setButtons}.
+     *
+     */
     public abstract void setButtons(GenericButton[] newButtons) throws Exception;
 
     /**
@@ -357,6 +361,7 @@ public abstract class GenericJoystick implements GenericComponent {
     /**
      * FIXME: Description of {@code removeButtonActionListeners}. Quita los listener de acción de
      * cada uno de sus botones.
+     *
      */
     public void removeButtonActionListeners() {
         for (GenericButton button : buttons)
@@ -364,9 +369,9 @@ public abstract class GenericJoystick implements GenericComponent {
     }
 
     /**
-     * Obtiene el valor en {String} del objeto actual.
+     * Get the current {@code Object} as {@code String}.
      *
-     * @return un {String} con la representación del objeto.
+     * @return {@code String} representing this {@code Object}.
      */
     @Override
     public String toString() {

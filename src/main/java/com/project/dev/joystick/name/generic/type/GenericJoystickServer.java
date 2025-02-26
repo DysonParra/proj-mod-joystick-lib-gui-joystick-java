@@ -240,6 +240,7 @@ public class GenericJoystickServer extends GenericRemoteJoystick {
     /**
      * FIXME: Description of {@code onClientUpdateButtonStatesRequest}. Realiza una acción luego de
      * que se obtenga una petición de actualización de estado de los botones del joystick genérico.
+     *
      */
     private void onClientUpdateButtonStatesRequest() {
         for (int i = 0; i < currentButtonsStates.length; i++)
