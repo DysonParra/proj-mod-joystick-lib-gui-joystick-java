@@ -48,7 +48,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     protected JoystickClientListener onJoystickClientListener = null;                   // Listener al joystick cliente.
 
     /**
-     * TODO: Description of {@code GenericJoystickClient}.
+     * TODO: Description of method {@code GenericJoystickClient}.
      *
      * @throws java.lang.Exception
      */
@@ -58,7 +58,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Description of {@code GenericJoystickClient}.
+     * TODO: Description of method {@code GenericJoystickClient}.
      *
      * @param name es el nombre del joystick.
      * @throws java.lang.Exception
@@ -69,7 +69,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Description of {@code GenericJoystickClient}.
+     * TODO: Description of method {@code GenericJoystickClient}.
      *
      * @param serverIpAddress es la dirección ip del servidor.
      * @param serverPort      Es el puerto del servidor.
@@ -84,7 +84,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Description of {@code isConnectedToJoystickServer}.
+     * TODO: Description of method {@code isConnectedToJoystickServer}.
      *
      * @return
      */
@@ -93,7 +93,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Description of {@code setServerIpAddress}.
+     * TODO: Description of method {@code setServerIpAddress}.
      *
      */
     @Override
@@ -103,7 +103,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Description of {@code setServerPort}.
+     * TODO: Description of method {@code setServerPort}.
      *
      * @param serverPort
      * @throws java.lang.Exception
@@ -115,7 +115,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Description of {@code setButtons}.
+     * TODO: Description of method {@code setButtons}.
      *
      * @param joystickButtons
      * @throws java.lang.Exception
@@ -126,7 +126,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Description of {@code setName}.
+     * TODO: Description of method {@code setName}.
      *
      * @param name
      */
@@ -136,7 +136,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * FIXME: Description of {@code onButtonStateChanged}. Invocado cuando se cambia el estado del
+     * FIXME: Description of method {@code onButtonStateChanged}. Invocado cuando se cambia el estado del
      * componente gráfico de un botón.
      *
      * @param buttonNumber   es el número del botón que cambió.
@@ -158,7 +158,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * FIXME: Description of {@code testServerConnection}. Prueba la conexión a un servidor con un
+     * FIXME: Description of method {@code testServerConnection}. Prueba la conexión a un servidor con un
      * joystick.
      *
      * @return si se pudo establecer la conexión con el servidor.
@@ -168,7 +168,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * FIXME: Description of {@code connectToServer}. Se conecta a un servidor con un joystick.
+     * FIXME: Description of method {@code connectToServer}. Se conecta a un servidor con un joystick.
      *
      * @return si se pudo conectar el servidor.
      */
@@ -200,7 +200,7 @@ public class GenericJoystickClient extends GenericRemoteJoystick {
     }
 
     /**
-     * FIXME: Description of {@code disconnectToServer}. Se desconecta de de un servidor con un
+     * FIXME: Description of method {@code disconnectToServer}. Se desconecta de de un servidor con un
      * joystick.
      *
      * @return si se pudo desconectar del servidor.

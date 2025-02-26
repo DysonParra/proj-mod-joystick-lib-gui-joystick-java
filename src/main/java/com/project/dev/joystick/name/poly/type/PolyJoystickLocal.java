@@ -29,7 +29,7 @@ import com.project.dev.joystick.name.poly.setter.PolyJoystickButtonSetter;
 public class PolyJoystickLocal extends GenericJoystickLocal implements PolyJoystick {
 
     /**
-     * TODO: Description of {@code PolyJoystickLocal}.
+     * TODO: Description of method {@code PolyJoystickLocal}.
      *
      * @throws java.lang.Exception
      */

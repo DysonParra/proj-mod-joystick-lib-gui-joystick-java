@@ -29,7 +29,7 @@ import com.project.dev.joystick.name.nintendo.setter.NintendoJoystickButtonSette
 public class NintendoJoystickLocal extends GenericJoystickLocal implements NintendoJoystick {
 
     /**
-     * TODO: Description of {@code NintendoJoystickLocal}.
+     * TODO: Description of method {@code NintendoJoystickLocal}.
      *
      * @throws java.lang.Exception
      */

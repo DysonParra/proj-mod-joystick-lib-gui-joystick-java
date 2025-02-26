@@ -30,7 +30,7 @@ import com.project.dev.joystick.name.generic.GenericJoystick;
 public abstract class GenericJoystickGraphicSetter implements GenericComponent {
 
     /**
-     * FIXME: Description of {@code setGenericJoystickGraphics}. Asigna los componnetes gráficos a un
+     * FIXME: Description of method {@code setGenericJoystickGraphics}. Asigna los componnetes gráficos a un
      * joystick y sus botones.
      *
      * @param imageFactory         Es la fabrica de imagenes genéricas.
@@ -83,7 +83,7 @@ public abstract class GenericJoystickGraphicSetter implements GenericComponent {
     }
 
     /**
-     * FIXME: Description of {@code setGenericJoystickGraphics}. Asigna los componnetes gráficos a un
+     * FIXME: Description of method {@code setGenericJoystickGraphics}. Asigna los componnetes gráficos a un
      * joystick y sus botones.
      *
      * @param imageFactory Es la fabrica de imagenes genéricas.

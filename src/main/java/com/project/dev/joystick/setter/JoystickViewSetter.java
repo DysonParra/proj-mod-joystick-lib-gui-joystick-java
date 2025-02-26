@@ -40,7 +40,7 @@ public abstract class JoystickViewSetter<T> {
     protected T view;
 
     /**
-     * FIXME: Description of {@code addJoystickToView}. Asigna un joystick con su respectivo
+     * FIXME: Description of method {@code addJoystickToView}. Asigna un joystick con su respectivo
      * asignador gráfico a la vista.
      *
      * @param joystick      es el joystick.

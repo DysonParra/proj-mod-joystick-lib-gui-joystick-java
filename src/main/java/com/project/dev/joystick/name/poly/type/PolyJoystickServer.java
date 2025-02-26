@@ -29,7 +29,7 @@ import com.project.dev.joystick.name.poly.setter.PolyJoystickButtonSetter;
 public class PolyJoystickServer extends GenericJoystickServer implements PolyJoystick {
 
     /**
-     * TODO: Description of {@code PolyJoystickServer}.
+     * TODO: Description of method {@code PolyJoystickServer}.
      *
      * @throws java.lang.Exception
      */

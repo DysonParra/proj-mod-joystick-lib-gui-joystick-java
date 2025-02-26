@@ -37,7 +37,7 @@ public class GraphicJoystickFactory {
     private JoystickViewSetter joystickViewSetter;
 
     /**
-     * TODO: Description of {@code GraphicJoystickFactory}.
+     * TODO: Description of method {@code GraphicJoystickFactory}.
      *
      * @param joystickViewSetter Es el asignador gráfico del joystick a la ventana.
      */
@@ -46,7 +46,7 @@ public class GraphicJoystickFactory {
     }
 
     /**
-     * TODO: Description of {@code getJoystickViewSetter}.
+     * TODO: Description of method {@code getJoystickViewSetter}.
      *
      * @return
      */
@@ -55,7 +55,7 @@ public class GraphicJoystickFactory {
     }
 
     /**
-     * TODO: Description of {@code setJoystickViewSetter}.
+     * TODO: Description of method {@code setJoystickViewSetter}.
      *
      * @param joystickViewSetter
      */
@@ -64,7 +64,7 @@ public class GraphicJoystickFactory {
     }
 
     /**
-     * FIXME: Description of {@code makeGraphicJoystick}. Crea un joystick con la información
+     * FIXME: Description of method {@code makeGraphicJoystick}. Crea un joystick con la información
      * indicada.
      *
      * @param type       es el tipo de joystick que se creará (Local, cliente o servidor). Usar los

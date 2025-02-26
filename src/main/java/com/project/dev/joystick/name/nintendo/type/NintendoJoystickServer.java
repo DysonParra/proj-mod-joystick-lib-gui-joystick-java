@@ -30,7 +30,7 @@ import com.project.dev.joystick.name.nintendo.setter.NintendoJoystickButtonSette
 public class NintendoJoystickServer extends GenericJoystickServer implements NintendoJoystick {
 
     /**
-     * TODO: Description of {@code NintendoJoystickServer}.
+     * TODO: Description of method {@code NintendoJoystickServer}.
      *
      * @throws java.lang.Exception
      */

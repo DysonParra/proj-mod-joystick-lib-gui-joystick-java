@@ -24,7 +24,7 @@ package com.project.dev.joystick.exception;
 public class JoystickNotFoundException extends Exception {
 
     /**
-     * TODO: Description of {@code JoystickNotFoundException}.
+     * TODO: Description of method {@code JoystickNotFoundException}.
      *
      * @param message es el mensaje que mostrará la exception.
      */

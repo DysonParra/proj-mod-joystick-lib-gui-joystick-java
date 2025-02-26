@@ -31,7 +31,7 @@ import java.awt.event.KeyEvent;
 public class NintendoJoystickGraphicSetter extends GenericJoystickGraphicSetter implements NintendoJoystickGraphicConstant {
 
     /**
-     * FIXME: Description of {@code setGenericJoystickGraphics}. Asigna los componnetes gráficos a un
+     * FIXME: Description of method {@code setGenericJoystickGraphics}. Asigna los componnetes gráficos a un
      * joystick y sus botones.
      *
      * @param joystick es el joystick.

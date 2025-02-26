@@ -25,7 +25,7 @@ package com.project.dev.joystick.exception;
 public class JoystickClientConnectionRefusedException extends Exception {
 
     /**
-     * TODO: Description of {@code JoystickClientConnectionRefusedException}.
+     * TODO: Description of method {@code JoystickClientConnectionRefusedException}.
      *
      * @param message es el mensaje que mostrará la exception.
      */

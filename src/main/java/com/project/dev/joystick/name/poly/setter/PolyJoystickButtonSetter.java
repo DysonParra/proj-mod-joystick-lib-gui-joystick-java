@@ -31,7 +31,7 @@ public class PolyJoystickButtonSetter extends GenericJoystickButtonSetter {
     protected PolyJoystick polyJoystick;
 
     /**
-     * FIXME: Description of {@code setGenericJoystickButtons}. Agrega los botones al joystick
+     * FIXME: Description of method {@code setGenericJoystickButtons}. Agrega los botones al joystick
      * genérico.
      *
      * @param genericJoystick es el joystick genérico.

@@ -27,14 +27,14 @@ import com.project.dev.joystick.name.generic.GenericJoystick;
 public interface GraphicJoystick extends GenericComponent {
 
     /**
-     * FIXME: Description of {@code getJoystick}. Obtiene el joystick del joystick gráfico.
+     * FIXME: Description of method {@code getJoystick}. Obtiene el joystick del joystick gráfico.
      *
      * @return es el joystick del gráfico.
      */
     public abstract GenericJoystick getJoystick();
 
     /**
-     * FIXME: Description of {@code getJoystickWidth}. Obtiene ancho del joystick asociado al
+     * FIXME: Description of method {@code getJoystickWidth}. Obtiene ancho del joystick asociado al
      * joystick gráfico.
      *
      * @return el ancho del joystick gráfico.
@@ -42,7 +42,7 @@ public interface GraphicJoystick extends GenericComponent {
     public abstract int getJoystickWidth();
 
     /**
-     * FIXME: Description of {@code getJoystickHeight}. Obtiene el alto del joystick asociado al
+     * FIXME: Description of method {@code getJoystickHeight}. Obtiene el alto del joystick asociado al
      * joystick gráfico.
      *
      * @return el alto del joystick gráfico.
@@ -50,14 +50,14 @@ public interface GraphicJoystick extends GenericComponent {
     public abstract int getJoystickHeight();
 
     /**
-     * FIXME: Description of {@code onJoystickScale}. Realiza una acción luego de que el joystick al
+     * FIXME: Description of method {@code onJoystickScale}. Realiza una acción luego de que el joystick al
      * que pertenece cambia de imagen.
      *
      */
     public abstract void onJoystickScale();
 
     /**
-     * FIXME: Description of {@code scaleJoystick}. Cambia la resolución de las imágenes de los
+     * FIXME: Description of method {@code scaleJoystick}. Cambia la resolución de las imágenes de los
      * botones y el joystick.
      *
      * @param percent es el porcentaje de escalado del joystick.
@@ -66,7 +66,7 @@ public interface GraphicJoystick extends GenericComponent {
     public abstract void scaleJoystick(double percent) throws Exception;
 
     /**
-     * FIXME: Description of {@code scaleJoystickWidth}. Cambia la resolución de las imágenes de los
+     * FIXME: Description of method {@code scaleJoystickWidth}. Cambia la resolución de las imágenes de los
      * botones y el joystick.
      *
      * @param newWidth es el nuevo ancho del joystick.
@@ -75,7 +75,7 @@ public interface GraphicJoystick extends GenericComponent {
     public abstract void scaleJoystickWidth(int newWidth) throws Exception;
 
     /**
-     * FIXME: Description of {@code scaleJoystickHeight}. Cambia la resolución de las imágenes de los
+     * FIXME: Description of method {@code scaleJoystickHeight}. Cambia la resolución de las imágenes de los
      * botones y el joystick.
      *
      * @param newHeight es el nuevo alto del joystick.

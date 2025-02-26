@@ -32,7 +32,7 @@ public abstract class GenericButtonGraphicListener<T> implements GenericComponen
     protected T view;
 
     /**
-     * TODO: Description of {@code GenericButtonGraphicListener}.
+     * TODO: Description of method {@code GenericButtonGraphicListener}.
      *
      * @param view es la vista donde se asignará la parte gráfica del botón (JLabel o ImageView por
      *             ejemplo).
@@ -42,7 +42,7 @@ public abstract class GenericButtonGraphicListener<T> implements GenericComponen
     }
 
     /**
-     * TODO: Description of {@code getView}.
+     * TODO: Description of method {@code getView}.
      *
      * @return
      */
@@ -51,7 +51,7 @@ public abstract class GenericButtonGraphicListener<T> implements GenericComponen
     }
 
     /**
-     * TODO: Description of {@code setView}.
+     * TODO: Description of method {@code setView}.
      *
      * @param view
      */
@@ -60,7 +60,7 @@ public abstract class GenericButtonGraphicListener<T> implements GenericComponen
     }
 
     /**
-     * FIXME: Description of {@code onButtonStateChanged}. Realiza una acción luego de que el botón
+     * FIXME: Description of method {@code onButtonStateChanged}. Realiza una acción luego de que el botón
      * al que pertenece cambia de estado.
      *
      * @param newState es el nuevo estado del botón.

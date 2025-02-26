@@ -32,7 +32,7 @@ public class NintendoJoystickButtonSetter extends GenericJoystickButtonSetter {
     protected NintendoJoystick nintendoJoystick;
 
     /**
-     * FIXME: Description of {@code setGenericJoystickButtons}. Agrega los botones al joystick
+     * FIXME: Description of method {@code setGenericJoystickButtons}. Agrega los botones al joystick
      * genérico.
      *
      * @param genericJoystick es el joystick genérico.

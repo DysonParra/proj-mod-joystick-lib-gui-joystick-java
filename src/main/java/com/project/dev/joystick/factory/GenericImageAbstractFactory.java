@@ -27,7 +27,7 @@ import com.project.dev.joystick.graphic.GenericImage;
 public abstract class GenericImageAbstractFactory implements GenericComponent {
 
     /**
-     * TODO: Description of {@code GenericImageAbstractFactory}.
+     * TODO: Description of method {@code GenericImageAbstractFactory}.
      *
      */
     public GenericImageAbstractFactory() {
@@ -35,7 +35,7 @@ public abstract class GenericImageAbstractFactory implements GenericComponent {
     }
 
     /**
-     * FIXME: Description of {@code makeGenericImage}. Fabrica una imagen genérica con solo la ruta.
+     * FIXME: Description of method {@code makeGenericImage}. Fabrica una imagen genérica con solo la ruta.
      *
      * @param path es la ruta de la imagen.
      * @return una imagen genérica.
@@ -44,7 +44,7 @@ public abstract class GenericImageAbstractFactory implements GenericComponent {
     public abstract GenericImage makeGenericImage(String path) throws Exception;
 
     /**
-     * FIXME: Description of {@code makeGenericImage}. Fabrica una imagen genérica con la ruta el
+     * FIXME: Description of method {@code makeGenericImage}. Fabrica una imagen genérica con la ruta el
      * ancho y el alto.
      *
      * @param path      es la ruta de la imagen.
@@ -61,7 +61,7 @@ public abstract class GenericImageAbstractFactory implements GenericComponent {
     }
 
     /**
-     * FIXME: Description of {@code makeGenericImage}. Fabrica una imagen genérica con la ruta el
+     * FIXME: Description of method {@code makeGenericImage}. Fabrica una imagen genérica con la ruta el
      * ancho y el alto.
      *
      * @param path      es la ruta de la imagen.

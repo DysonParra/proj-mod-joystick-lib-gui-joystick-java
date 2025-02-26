@@ -37,7 +37,7 @@ public class GenericJoystickServer extends GenericRemoteJoystick {
     protected Thread clientUpdateProcessor = new Thread(this::onClientUpdateButtonStatesRequest);   // Usada para procesar las peticiones de actalización del cliente.
 
     /**
-     * TODO: Description of {@code GenericJoystickServer}.
+     * TODO: Description of method {@code GenericJoystickServer}.
      *
      * @throws java.lang.Exception
      */
@@ -46,7 +46,7 @@ public class GenericJoystickServer extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Description of {@code GenericJoystickServer}.
+     * TODO: Description of method {@code GenericJoystickServer}.
      *
      * @param name es el nombre del joystick.
      * @throws java.lang.Exception
@@ -56,7 +56,7 @@ public class GenericJoystickServer extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Description of {@code getOnJoystickServerListener}.
+     * TODO: Description of method {@code getOnJoystickServerListener}.
      *
      * @return
      */
@@ -65,7 +65,7 @@ public class GenericJoystickServer extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Description of {@code setOnJoystickServerListener}.
+     * TODO: Description of method {@code setOnJoystickServerListener}.
      *
      * @param onJoystickServerListener
      */
@@ -74,7 +74,7 @@ public class GenericJoystickServer extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Description of {@code isRunningJoystickServer}.
+     * TODO: Description of method {@code isRunningJoystickServer}.
      *
      * @return
      */
@@ -83,7 +83,7 @@ public class GenericJoystickServer extends GenericRemoteJoystick {
     }
 
     /**
-     * FIXME: Description of {@code setButtons}. Asigna botones al joystick.
+     * FIXME: Description of method {@code setButtons}. Asigna botones al joystick.
      *
      * @param newButtons son los botones que se asignarán como los botones del joystick.
      * @throws java.lang.Exception
@@ -179,7 +179,7 @@ public class GenericJoystickServer extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Description of {@code setServerIpAddress}.
+     * TODO: Description of method {@code setServerIpAddress}.
      *
      */
     @Override
@@ -188,7 +188,7 @@ public class GenericJoystickServer extends GenericRemoteJoystick {
     }
 
     /**
-     * TODO: Description of {@code setServerPort}.
+     * TODO: Description of method {@code setServerPort}.
      *
      */
     @Override
@@ -198,7 +198,7 @@ public class GenericJoystickServer extends GenericRemoteJoystick {
     }
 
     /**
-     * FIXME: Description of {@code onButtonStateChanged}. Invocado cuando se cambia el estado del
+     * FIXME: Description of method {@code onButtonStateChanged}. Invocado cuando se cambia el estado del
      * componenet genérico.
      *
      * @param buttonNumber es el número del botón que cambió.
@@ -211,7 +211,7 @@ public class GenericJoystickServer extends GenericRemoteJoystick {
     }
 
     /**
-     * FIXME: Description of {@code startServer}. Inicia el servidor del joystick.
+     * FIXME: Description of method {@code startServer}. Inicia el servidor del joystick.
      *
      * @return si se pudo iniciar el servidor.
      */
@@ -225,7 +225,7 @@ public class GenericJoystickServer extends GenericRemoteJoystick {
     }
 
     /**
-     * FIXME: Description of {@code stopServer}. Inicia el servidor del joystick.
+     * FIXME: Description of method {@code stopServer}. Inicia el servidor del joystick.
      *
      * @return si se pudo parar el servidor.
      */
@@ -238,7 +238,7 @@ public class GenericJoystickServer extends GenericRemoteJoystick {
     }
 
     /**
-     * FIXME: Description of {@code onClientUpdateButtonStatesRequest}. Realiza una acción luego de
+     * FIXME: Description of method {@code onClientUpdateButtonStatesRequest}. Realiza una acción luego de
      * que se obtenga una petición de actualización de estado de los botones del joystick genérico.
      *
      */

@@ -26,26 +26,26 @@ import com.project.dev.joystick.GenericComponent;
 public abstract class GenericButtonActionListener implements GenericComponent {
 
     /**
-     * FIXME: Description of {@code onTyped}. Realiza una acción luego de que el botón es presionado.
+     * FIXME: Description of method {@code onTyped}. Realiza una acción luego de que el botón es presionado.
      *
      */
     public abstract void onTyped();
 
     /**
-     * FIXME: Description of {@code onPressed}. Realiza una acción luego de que el botón se mantiene
+     * FIXME: Description of method {@code onPressed}. Realiza una acción luego de que el botón se mantiene
      * presionado.
      *
      */
     public abstract void onPressed();
 
     /**
-     * FIXME: Description of {@code onReleased}. Realiza una acción luego de que el botón es soltado.
+     * FIXME: Description of method {@code onReleased}. Realiza una acción luego de que el botón es soltado.
      *
      */
     public abstract void onReleased();
 
     /**
-     * FIXME: Description of {@code onUnpressed}. Realiza una acción luego de que el botón se
+     * FIXME: Description of method {@code onUnpressed}. Realiza una acción luego de que el botón se
      * mantiene no presionado.
      *
      */

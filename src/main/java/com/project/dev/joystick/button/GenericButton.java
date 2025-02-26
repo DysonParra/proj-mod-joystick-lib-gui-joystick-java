@@ -59,7 +59,7 @@ public class GenericButton implements GenericComponent {
     protected byte currentButtonState = BUTTON_UNPRESSED;                       // Estado actual del botón.
 
     /**
-     * TODO: Description of {@code GenericButton}.
+     * TODO: Description of method {@code GenericButton}.
      *
      */
     public GenericButton() {
@@ -70,7 +70,7 @@ public class GenericButton implements GenericComponent {
     }
 
     /**
-     * TODO: Description of {@code GenericButton}.
+     * TODO: Description of method {@code GenericButton}.
      *
      * @param name es el nombre del botón.
      */
@@ -80,7 +80,7 @@ public class GenericButton implements GenericComponent {
     }
 
     /**
-     * TODO: Description of {@code GenericButton}.
+     * TODO: Description of method {@code GenericButton}.
      *
      * @param onGraphicListener es el componente gráfico asociado al botón.
      */
@@ -90,7 +90,7 @@ public class GenericButton implements GenericComponent {
     }
 
     /**
-     * TODO: Description of {@code GenericButton}.
+     * TODO: Description of method {@code GenericButton}.
      *
      * @param name              es el nombre del botón.
      * @param onGraphicListener es el componente gráfico asociado al botón.
@@ -101,7 +101,7 @@ public class GenericButton implements GenericComponent {
     }
 
     /**
-     * FIXME: Description of {@code getButtonImage}.
+     * FIXME: Description of method {@code getButtonImage}.
      *
      * @param state es el estado del botón asociado a dicha imágen.
      * @return la imágen del botón en el estado actual.
@@ -111,7 +111,7 @@ public class GenericButton implements GenericComponent {
     }
 
     /**
-     * FIXME: Description of {@code addButtonImage}.
+     * FIXME: Description of method {@code addButtonImage}.
      *
      * @param imageFactory Es la fábrica de imagenes genéricas.
      * @param stateCode    es el código de estado del botón para cambiar a esta imáagen.
@@ -124,7 +124,7 @@ public class GenericButton implements GenericComponent {
     }
 
     /**
-     * FIXME: Description of {@code addButtonImage}.
+     * FIXME: Description of method {@code addButtonImage}.
      *
      * @param imageFactory Es la fábrica de imagenes genéricas.
      * @param stateCode    es el código de estado del botón para cambiar a esta imáagen.
@@ -139,7 +139,7 @@ public class GenericButton implements GenericComponent {
     }
 
     /**
-     * FIXME: Description of {@code addButtonImage}.
+     * FIXME: Description of method {@code addButtonImage}.
      *
      * @param imageFactory Es la fábrica de imagenes genéricas.
      * @param stateCode    es el código de estado del botón para cambiar a esta imáagen.
@@ -156,7 +156,7 @@ public class GenericButton implements GenericComponent {
     }
 
     /**
-     * FIXME: Description of {@code addButtonImages}.
+     * FIXME: Description of method {@code addButtonImages}.
      *
      * @param imageFactory Es la fabrica de imagenes genéricas.
      * @param statesCodes  son los código de estado del botón para cambiar a esa imáagen.
@@ -178,7 +178,7 @@ public class GenericButton implements GenericComponent {
     }
 
     /**
-     * FIXME: Description of {@code addButtonImages}.
+     * FIXME: Description of method {@code addButtonImages}.
      *
      * @param imageFactory Es la fabrica de imagenes genéricas.
      * @param statesCodes  son los código de estado del botón para cambiar a esa imáagen.
@@ -196,7 +196,7 @@ public class GenericButton implements GenericComponent {
     }
 
     /**
-     * FIXME: Description of {@code addButtonImages}.
+     * FIXME: Description of method {@code addButtonImages}.
      *
      * @param imageFactory Es la fabrica de imagenes genéricas.
      * @param statesCodes  son los código de estado del botón para cambiar a esa imáagen.
@@ -211,7 +211,7 @@ public class GenericButton implements GenericComponent {
     }
 
     /**
-     * FIXME: Description of {@code scaleImages}. Cambia la resolución de las imágenes de los botones
+     * FIXME: Description of method {@code scaleImages}. Cambia la resolución de las imágenes de los botones
      * y el joystick.
      *
      * @param percent es el porcentaje de escalado del joystick.
@@ -252,7 +252,7 @@ public class GenericButton implements GenericComponent {
     }
 
     /**
-     * FIXME: Description of {@code touchButton}. Pulsa el botón.
+     * FIXME: Description of method {@code touchButton}. Pulsa el botón.
      *
      * @return si fue posible tocar el botón.
      */
@@ -301,7 +301,7 @@ public class GenericButton implements GenericComponent {
     }
 
     /**
-     * FIXME: Description of {@code unTouchButton}. Dejar de pulsar el botón.
+     * FIXME: Description of method {@code unTouchButton}. Dejar de pulsar el botón.
      *
      * @return si fue posible soltar el botón.
      */

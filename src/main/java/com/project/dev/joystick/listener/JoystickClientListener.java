@@ -24,7 +24,7 @@ package com.project.dev.joystick.listener;
 public interface JoystickClientListener {
 
     /**
-     * FIXME: Description of {@code onUpdateButtonsStatesTimeOut}. Realiza una acción luego de no sea
+     * FIXME: Description of method {@code onUpdateButtonsStatesTimeOut}. Realiza una acción luego de no sea
      * posible actualizar el estado de los botones del joystick servidor.
      *
      */

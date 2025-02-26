@@ -27,7 +27,7 @@ import com.project.dev.joystick.name.poly.PolyJoystick;
 public class PolyJoystickClient extends GenericJoystickClient implements PolyJoystick {
 
     /**
-     * TODO: Description of {@code PolyJoystickClient}.
+     * TODO: Description of method {@code PolyJoystickClient}.
      *
      * @throws java.lang.Exception
      */

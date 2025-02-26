@@ -24,7 +24,7 @@ package com.project.dev.joystick.exception;
 public class UnknownJoystickTypeException extends Exception {
 
     /**
-     * TODO: Description of {@code UnknownJoystickTypeException}.
+     * TODO: Description of method {@code UnknownJoystickTypeException}.
      *
      * @param message es el mensaje que mostrará la exception.
      */

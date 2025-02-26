@@ -28,7 +28,7 @@ import com.project.dev.joystick.name.nintendo.NintendoJoystick;
 public class NintendoJoystickClient extends GenericJoystickClient implements NintendoJoystick {
 
     /**
-     * TODO: Description of {@code NintendoJoystickClient}.
+     * TODO: Description of method {@code NintendoJoystickClient}.
      *
      * @throws java.lang.Exception
      */

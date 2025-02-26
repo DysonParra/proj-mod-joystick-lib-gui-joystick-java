@@ -29,7 +29,7 @@ import com.project.dev.joystick.name.generic.GenericJoystick;
 public class GenericJoystickPrintActionSetter implements GenericComponent {
 
     /**
-     * FIXME: Description of {@code addButtonPrintActions}. Agrega acciones de imprimir en pantalla a
+     * FIXME: Description of method {@code addButtonPrintActions}. Agrega acciones de imprimir en pantalla a
      * cada botón del joystick.
      *
      * @param genericJoystick es el joystick genérico.

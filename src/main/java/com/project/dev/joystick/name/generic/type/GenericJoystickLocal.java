@@ -28,7 +28,7 @@ import com.project.dev.joystick.name.generic.GenericJoystick;
 public class GenericJoystickLocal extends GenericJoystick {
 
     /**
-     * TODO: Description of {@code GenericJoystickLocal}.
+     * TODO: Description of method {@code GenericJoystickLocal}.
      *
      * @throws java.lang.Exception
      */
@@ -37,7 +37,7 @@ public class GenericJoystickLocal extends GenericJoystick {
     }
 
     /**
-     * TODO: Description of {@code GenericJoystickLocal}.
+     * TODO: Description of method {@code GenericJoystickLocal}.
      *
      * @param name es el nombre del joystick.
      * @throws java.lang.Exception
@@ -47,7 +47,7 @@ public class GenericJoystickLocal extends GenericJoystick {
     }
 
     /**
-     * FIXME: Description of {@code setButtons}. Asigna botones al joystick.
+     * FIXME: Description of method {@code setButtons}. Asigna botones al joystick.
      *
      * @param newButtons son los botones que se asignarán como los botones del joystick.
      * @throws java.lang.Exception
@@ -69,7 +69,7 @@ public class GenericJoystickLocal extends GenericJoystick {
     }
 
     /**
-     * FIXME: Description of {@code onButtonStateChanged}. Invocado cuando se cambia el estado del
+     * FIXME: Description of method {@code onButtonStateChanged}. Invocado cuando se cambia el estado del
      * componenet genérico.
      *
      * @param buttonNumber   es el número del botón que cambió.
