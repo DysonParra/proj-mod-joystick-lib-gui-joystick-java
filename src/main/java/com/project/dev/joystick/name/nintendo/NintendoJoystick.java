@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {NintendoJoystick}
+ * @overview        {NintendoJoystick}
  *
  * @version         2.0
  *

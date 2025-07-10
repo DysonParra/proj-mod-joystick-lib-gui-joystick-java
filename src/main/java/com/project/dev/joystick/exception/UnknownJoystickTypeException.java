@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {UnknownJoystickTypeException}
+ * @overview        {UnknownJoystickTypeException}
  *
  * @version         2.0
  *

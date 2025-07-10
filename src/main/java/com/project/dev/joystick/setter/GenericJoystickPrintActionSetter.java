@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericJoystickPrintActionSetter}
+ * @overview        {GenericJoystickPrintActionSetter}
  *
  * @version         2.0
  *

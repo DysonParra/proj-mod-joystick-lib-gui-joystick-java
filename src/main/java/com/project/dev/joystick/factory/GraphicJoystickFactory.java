@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GraphicJoystickFactory}
+ * @overview        {GraphicJoystickFactory}
  *
  * @version         2.0
  *

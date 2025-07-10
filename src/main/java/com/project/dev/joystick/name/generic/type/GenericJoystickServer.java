@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericJoystickServer}
+ * @overview        {GenericJoystickServer}
  *
  * @version         2.0
  *

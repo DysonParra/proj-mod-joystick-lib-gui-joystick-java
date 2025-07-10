@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {PolyJoystickServer}
+ * @overview        {PolyJoystickServer}
  *
  * @version         2.0
  *

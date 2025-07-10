@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {NintendoJoystickGraphicConstant}
+ * @overview        {NintendoJoystickGraphicConstant}
  *
  * @version         2.0
  *

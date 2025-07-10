@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericImageAbstractFactory}
+ * @overview        {GenericImageAbstractFactory}
  *
  * @version         2.0
  *

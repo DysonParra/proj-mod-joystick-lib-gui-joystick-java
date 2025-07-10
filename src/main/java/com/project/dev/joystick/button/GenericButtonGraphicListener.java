@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericButtonGraphicListener}
+ * @overview        {GenericButtonGraphicListener}
  *
  * @version         2.0
  *

@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericImage}
+ * @overview        {GenericImage}
  *
  * @version         2.0
  *

@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericJoystickButtonSetter}
+ * @overview        {GenericJoystickButtonSetter}
  *
  * @version         2.0
  *

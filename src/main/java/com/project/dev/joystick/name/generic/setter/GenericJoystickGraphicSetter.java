@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericJoystickGraphicSetter}
+ * @overview        {GenericJoystickGraphicSetter}
  *
  * @version         2.0
  *

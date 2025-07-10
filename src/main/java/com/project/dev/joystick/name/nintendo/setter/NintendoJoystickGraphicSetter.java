@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {NintendoJoystickGraphicSetter}
+ * @overview        {NintendoJoystickGraphicSetter}
  *
  * @version         2.0
  *

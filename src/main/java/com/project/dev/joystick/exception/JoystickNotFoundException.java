@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {JoystickNotFoundException}
+ * @overview        {JoystickNotFoundException}
  *
  * @version         2.0
  *

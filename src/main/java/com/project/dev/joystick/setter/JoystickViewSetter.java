@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {JoystickViewSetter}
+ * @overview        {JoystickViewSetter}
  *
  * @version         2.0
  *

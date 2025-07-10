@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {NintendoJoystickButtonSetter}
+ * @overview        {NintendoJoystickButtonSetter}
  *
  * @version         2.0
  *

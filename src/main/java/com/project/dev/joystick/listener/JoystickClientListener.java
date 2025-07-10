@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {JoystickClientListener}
+ * @overview        {JoystickClientListener}
  *
  * @version         2.0
  *

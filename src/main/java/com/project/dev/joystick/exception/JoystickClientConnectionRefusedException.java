@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {JoystickClientConnectionRefusedException}
+ * @overview        {JoystickClientConnectionRefusedException}
  *
  * @version         2.0
  *

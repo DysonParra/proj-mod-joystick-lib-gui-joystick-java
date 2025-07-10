@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {PolyJoystickButtonSetter}
+ * @overview        {PolyJoystickButtonSetter}
  *
  * @version         2.0
  *
